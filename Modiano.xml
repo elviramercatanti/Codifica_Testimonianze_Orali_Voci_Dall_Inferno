@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+
+    <teiHeader>
+    
+        <fileDesc>  <!--descrizione bibliografica di un file elettronico -->
+            <titleStmt>
+                <title>Testimonianza di Sami Modiano che ricorda sua sorella e suo padre, morti a Birkenau</title>
+            </titleStmt>
+
+            
+
+            <editionStmt>   <!--informazioni sull'edizione di un testo-->
+                <edition></edition>
+                <respStmt>
+                    <resp>Progetto coordinato da</resp>
+                    <name ref="#AMDG"> Angelo Mario Del Grosso</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Encoding by</resp>
+                    <name ref="#EM">Elvira Mercatanti</name>
+                    
+                </respStmt>
+            </editionStmt>
+
+
+            <publicationStmt><!--(dichiarazione sulla pubblicazione) raggruppa le informazioni riguardo la pubblicazione o la distribuzione di un documento elettronico o di altra natua. -->
+                <publisher>Università di Pisa</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC-BY 4.0 </licence>
+                </availability>
+            </publicationStmt>
+
+
+
+            <sourceDesc>    <!--descrizione relativa alle fonti da cui è derivato o generato un documento elettronico -->
+
+        
+                <recordingStmt> <!--(dichiarazione sulla registrazione) descrive l'insieme delle registrazioni usate nella trascrizione di un testo orale. -->
+
+                    <!--inserire durata video con standard-->
+                    <recording type="video" dur="PT17M0.5S"> <!--(registrazione) fornisce i dettagli di una registrazione audio o video usata come fonte di un testo orale, sia diretta sia da messa in onda pubblica.-->
+                        
+                        <date when="2018-10-31">31 ottobre 2018</date>
+
+                        <respStmt><!--(dichiarazione di responsabilità) fornisce una dichiarazione di responsabilità per qualcuno responsabile del contenuto intellettuale di un testo, curatela, registrazione o collana, nel caso in cui gli elementi specifici per autore, curatore ecc. non sono sufficienti o non applicabili.-->
+                            <resp>Registrato da</resp>
+                            <name>Ivan Scalfarotto</name>
+                            <note>Registrazione effettuata durante la visita dei parlamentari italiani ad Auschwitz-Birkenau</note>
+                        </respStmt>
+
+                        <equipment><!--fornisce dettagli tecnici sull'attrezzatura per una registrazione audio o video utilizzata quale fonte di un testo orale-->
+                            <p>Filmato realizzato con un telefono cellulare</p>
+                        </equipment>
+                        
+
+                        <broadcast><!--descrive una messa in onda utilizzata quale fonte di un testo orale.-->
+                            <bibl source="https://youtu.be/b9jZSveHn0k?list=PLJYTp5OOq0Z5dN6-rb9VJn8SXxDYk1rKz">
+                                <author>Ivan Scalfarotto</author>
+                                <title>Sami Modiano ricorda sua sorella e suo padre, morti a Birkenau.</title>
+                                <date when="2018-11-03">3 novembre 2018</date> 
+                                <note>Il video si trova su YouTube</note>                          
+                            </bibl>
+                        </broadcast>
+
+
+                    </recording>
+
+                </recordingStmt>
+
+            </sourceDesc>
+
+        </fileDesc>
+
+
+        <encodingDesc><!--(descrizione della codifica) documenta la relazione fra un documento elettronico e la o le fonti da cui è derivato. -->
+            <transcriptionDesc ident="" version=""/><!-- describes the set of transcription conventions used, particularly for spoken material. -->
+        </encodingDesc>
+
+
+
+        <profileDesc><!--(descrizione del profilo del testo) fornisce una descrizione dettagliata degli aspetti non bibliografici di un testo, in modo particolare le lingue e i linguaggi secondari utilizzati, la situazione in cui è stato prodotto il testo, i partecipanti e la relativa ambientazione-->
+        
+            <particDesc><!-- (descrizione dei partecipanti) descrive parlanti, voci o altri parlanti identificabili in una interazione linguistica.-->
+                    <person xml:id="modiano">
+                        <persName>
+                            <forename>Samuel</forename>
+                            <surname>Modiano</surname>
+                            <addName type="alias">Sami</addName>
+                        </persName>
+                    </person>
+            </particDesc>
+
+
+            <langUsage>
+                <language ident="it">Italiano</language>
+            </langUsage>
+            
+        </profileDesc>
+
+       
+    
+    </teiHeader> 
+
+
+
+    <text> <!-- Text prevede tre ulteriori figli che sono: front, body e back-->
+
+        <front> <!--frontespizio, premessa-->
+
+            <div type="timeline">
+                <timeline xml:id="TL1">
+                    <when xml:id="TR1" absolute="00:00:29"/>
+                    <when xml:id="TR2" absolute="00:05:14"/>
+                    <when xml:id="TR3" absolute="00:11.04"/>
+                    <when xml:id="TR4" absolute="00:12:46"/>
+                    <when xml:id="TR5" absolute="00:13:42"/>
+                    <when xml:id="TR6" absolute="00:16:23"/>
+                </timeline>
+            </div>  
+        
+
+            <div type="regesto">
+                <p>
+                    <seg synch="#TR1">
+                        Il 16 agosto 1944, dopo una prima selezione sulla Rampa della morte, i prigionieri giungono nel Lager e vengono distributi nelle varie baracche,
+                        ognuna sotto il controllo di un Kapo. Modiano e il padre finiscono nel Lager A, ma in baracche diverse. La sorella Lucia, invece, finisce nel Lager B.
+                    
+                        Iniziano le giornate lavorative, tutte uguali, e Modiano è solito trascorrere la sera nella baracca del padre. Questi, ogni volta prima di congedarsi dal figlio,
+                        ripete sempre la frase “Su, Sami, vai a riposarti perché domani ti aspetta una giornata dura di lavoro”.
+                    </seg>
+
+                    <seg synch="#TR2">
+                        Le giornate proseguono tutte uguali fino a quando, un giorno, Modiano decide di andare a cercare la sorella, che non vede dal 16 agosto.
+                        Modiano ha difficoltà a riconoscere la sorella tra tutte quelle persone uguali, magre, senza capelli e vestite allo stesso modo. Ad un certo punto, però, nota una mano che si agita nell'aria e lo saluta. Si avvicina al filo spinato, rischiando di farsi sparare dai tedeschi che si trovano sulle torrette di avvistamento, e si accorge che quella mano è la mano della sorella. Modiano racconta al padre l'accaduto e lo invita ad andare con lui a salutare la sorella, ma questi si rifiuta perchè vuole ricordare la figlia come era prima di entrare nel Lager.
+                    </seg>
+
+                    <seg synch="#TR3">
+                        Intorno al 9-10 settembre 1944, Modiano, vedendo la sorella in quelle condizioni, decide di regalarle la sua fetta di pane. La avvolge quindi in un fazzoletto
+                        e la lancia al di là della rete verso Lucia. La sorella apre il fazzoletto, mima un abbraccio nei confronti del fratello e poi gli fa segno di inviargli indietro qualcosa. Modiano raccoglie il panno, lo apre, e dentro trova la sua fetta di pane e anche quella di Lucia. 
+                    </seg>
+
+                    <seg synch="#TR4">
+                        Pochi giorni dopo la sorella non si presenta più al consueto appuntamento ma Modiano non si arrende e continua a recarsi nel luogo dove erano soliti incontrarsi. Modiano racconta al padre l'accaduto, il quale da quel momento si lascia andare, si arrende.
+                    </seg>
+
+                    <seg synch="#TR5">
+                        Intorno al 15/16/18 settembre, il padre, al momento di congedarsi dal figlio, invece di ripetere la solita frase, lo invita a restare ancora un po' di tempo
+                        insieme a lui e gli annuncia di aver deciso di consegnarsi spontaneamente all'ambulatorio perchè non si sente bene. Modiano sapeva che questo gesto avrebbe condotto il padre nelle camere a gas e cerca in tutti i modi di di farlo desistere senza riuscirci.
+                    </seg>
+
+                    <seg synch="#TR6">
+                        Il giorno successivo il padre non c'è più e Modiano, dopo un solo mese dal suo arrivo, è rimasto completamente solo.
+                    </seg>
+                </p> 
+
+            </div>
+        
+        
+        
+        </front> 
+
+        <body> <!--sezione relativa alla codifica del corpo del testo -->
+
+
+            <timeline xml:id="TL2">
+                <when xml:id="TS1" absolute="00:00:00"/>
+                <when xml:id="TS2" absolute="00:00:18"/>
+                <when xml:id="TS3" absolute="00:00:29"/>
+                <when xml:id="TS4" absolute="00:00:57"/>
+                <when xml:id="TS5" absolute="00:01:33"/>
+                <when xml:id="TS6" absolute="00:02:19"/>
+                <when xml:id="TS7" absolute="00:03:53"/>
+                <when xml:id="TS8" absolute="00:05:14"/>
+                <when xml:id="TS9" absolute="00:07:01"/>
+                <when xml:id="TS10" absolute="00:08:32"/>
+                <when xml:id="TS11" absolute="00:11.04"/>
+                <when xml:id="TS12" absolute="00:12:32"/>
+                <when xml:id="TS13" absolute="00:12:46"/>
+                <when xml:id="TS14" absolute="00:16:23"/>
+            </timeline>
+
+
+            <div>
+                <incident synch="#TS1">
+                    <desc>Persone che parlano</desc>
+                </incident>
+
+                <kinesic synch="#TS2">
+                    <desc>Modiano si toglie il cappello</desc>
+                </kinesic>
+
+            </div>
+        
+
+            <div>
+                <u>
+                    <seg synch="#TS3">  <!--Arrivo nel Lager una volta superata la selezione sulla rampa della morte-->
+                        allora<pause/><vocal><desc>ehm</desc></vocal>dopo la selezione che vi ho spiegato stamattina<kinesic><desc>gesto con la mano</desc></kinesic> alla rampa della morte<pause/>e dopo esser passati<pause/>dalla sauna<pause/>e avessero avete <del type="correction">aver</del> messo il pigiama a righe il cappello a righe<pause/> i tedeschi ci hanno portato qui<pause/>nel Lager A <kinesic><desc>mostra con la mano dove si trova il Lager A</desc></kinesic>questo Lager<pause/>
+                    </seg>
+                </u>
+            </div>
+
+
+            <div>
+                <u>
+                    <seg synch="#TS4"> <!--Distribuzione dei prigionieri nelle baracche-->
+                        <vocal><desc>ehm</desc></vocal>subito entrati<kinesic><desc>indica con la mano l'entrata</desc></kinesic> perchè questa entrata che avete fatto non esisteva<pause/>l'entrata principale<kinesic><desc>indica l'entrata principale di cui sta parlando</desc></kinesic>era là<pause/>dall'altra parte<pause/><kinesic><desc>indica da dove</desc></kinesic> di qua si entrava e di qua si usciva ogni mattina per andare a lavorare<pause/>
+                        una volta messi qui dentro<pause/>noi<pause/>noi arrivati il <date when="08-16">16 di agosto</date><pause/> e sopravvissuti dalla parte destra<pause/>per i lavori forzati<pause/>siamo stati distribuiti qui dai Kapo<pause/>
+                        i Kapo ci hanno preso in carico<pause/> di distribuirci <kinesic><desc>fa il gesto di distribuzione nelle baracche</desc></kinesic>in queste baracche<pause/>
+                    </seg>
+                </u>
+            </div>
+
+            
+            <div>
+                <u>
+                    <seg synch="#TS5">  <!--Racconto delle giornate lavorative-->
+                        <vocal><desc>ehm</desc></vocal>un Kapo ha preso l'incarico di prendere mio padre <persName ref="#GM">Giacobbe</persName><pause/> e di metterlo nella baracca numero 15<pause/>un altro Kapo<pause/>mi ha preso a me e mi ha sbattuto nella baracca numero 11<pause/>
+                        eravamo <kinesic><desc>fa cenno con la mano</desc></kinesic>nello stesso Lager<pause/>A<pause/> ma distribuiti diversamente<pause/>Lager A baracca numero 15 dove c'era <rs ref="TEI-ListPerson.xml#GM">papà</rs><pause/>e la baracca numero 11 dove c'ero io<pause/>
+                        e di qua abbiamo incominciato ad avere le nostre giornate lavorative che si facevano ogni giorno<kinesic iterated="true"><desc>cenno di ripetizione con la mano</desc></kinesic> ogni giorno ogni giorno uguali<pause/> non c'erano nè sabati nè domeniche diverse<pause/>
+                        dunque ogni giorno era un giorno lavorativo<pause/>il lavoro rende liberi<kinesic><desc>mima il cancello con la frase</desc></kinesic>
+                    </seg>
+                </u>
+            </div>
+
+
+
+            <div>
+                <u>                
+                    <seg synch="#TS6">  <!--Modiano apprende come funziona il lager e dove finiscono le persone che non superano la selezione-->
+                        <vocal><desc>Ehm</desc></vocal>io ogni sera<pause/> avevo la fortuna<pause/>dopo le ore di lavoro<pause/>di andare subito nella baracca numero 15<pause/> dove c'era<rs ref="TEI-ListPerson.xml#GM">papà</rs><pause/>che mi aspettava<kinesic><desc>sorride</desc></kinesic>
+                        un <rs ref="TEI-ListPerson.xml#GM">papà</rs>adorabile<pause/>era all'inizio del nostro arrivo qui<pause/>ancora non avevo un'esperienza matura<pause/>erano i primi giorni<pause/><vocal><desc>Ehm</desc></vocal>
+                        e di fatti qui quando siamo arrivati il primo giorno<pause/>vi avevo detto poco fa<kinesic><desc>gesticola con la mano</desc></kinesic>che avevamo la speranza di vedere i nostri cari che erano partiti dalla parte sinistra <pause/>
+                        la prima domanda <kinesic><desc>indica davanti a sè come se mostrasse delle persone</desc></kinesic>che abbiamo fatto a queste persone che erano arrivate prima<kinesic><desc>fa cenno per indicare temporalmente prima</desc></kinesic>di noi qui<pause/>era quella di chiedere<pause/>
+                        avremo l'occasione di rivedere i nostri cari<kinesic><desc>gesto con la mano</desc></kinesic> che abbiamo visto partire <pause/>dalla parte sinistra<pause/>
+                        e loro ci hanno guardato in faccia <vocal><desc>parole che non si capiscono</desc></vocal>come non sapete<pause/>no<pause/> siamo arrivati oggi <pause/>non sappiamo e ve lo chiediamo perchè può darsi avremo la speranza di ritrovarli<pause/>
+                        e ci hanno detto <pause/>non vedete questi due camini<kinesic><desc>indica col dito verso l'altro come a mostrare i camini</desc></kinesic><pause/>si vediamo questi due camini<pause/>e di fatti ci hanno risposto con precisione<pause/>le anime dei vostri cari<pause/>
+                        era la sera del <date when="1944-08-16">16 agosto del millenovecento<pause/>dunque<pause/> quarantaquattro</date><pause/>quando ci hanno detto ufficialmente che le anime dei nostri cari non c'erano più<pause/><kinesic><desc>fa cenno di no con la testa</desc></kinesic><incident><desc>signora in sottofondo</desc></incident>
+                        erano già in quel fumo<pause/><kinesic><desc>indica con la mano indietro</desc></kinesic>delle camere a gas che avete visto<pause/>
+                    </seg>
+                </u>
+            </div>
+
+
+            <div>
+                <u>
+                    <seg synch="#TS7">  <!--Modiano ogni sera trascorre del tempo col padre nella baracca-->
+                        allora io ogni sera<pause/>avevo il piacere di andare a parlare con <rs ref="TEI-ListPerson.xml#GM">papà</rs><pause/><rs ref="TEI-ListPerson.xml#GM">papà</rs>mi aspettava<pause/>erano appena arrivati<pause/><vocal><desc>ehm</desc></vocal>i primi giorni era per me qualche cosa che<pause/> mi dava<pause/> lo stimolo di avere qualcuno<pause/>che c'era<pause/>dove potevo parlare discutere con lui <pause/>
+                        <rs ref="TEI-ListPerson.xml#GM">papà</rs>si <pause/>preoccupava<pause/> ogni volta che mi vedeva mi diceva ma come sei combinato <persName ref="TEI-ListPerson.xml#modiano">Sami</persName><pause/> sei tutto bagnato<pause/>perchè<pause/> e io dovevo spiegargli il motivo con calma<pause/> senza farlo preoccupare<pause/>non volevo preoccuparlo<pause/>ci tenevo<pause/>ci tenevo molto<pause/>anzi gli dicevo 
+                        io sono ridotto male ma vedo anche che te sei ridotto male <rs ref="TEI-ListPerson.xml#GM">papà</rs><pause/>e allora a vicenda ci raccontavamo poi lui mi diceva <pause/>su <persName ref="TEI-ListPerson.xml#modiano">Sami</persName><pause/>adesso <del type="repetition">vai vai</del><pause/><del type="repetition">vai</del> a riposarti<kinesic><desc>cenno con la mano come per mandar via qualcuno indicandogli la strada</desc></kinesic>
+                        perchè domani ti aspetta una giornata dura di lavoro<pause/>
+                        era l'ultima frase che lui mi diceva<pause/>mi accarezzava e io seguivo i consigli di <rs ref="TEI-ListPerson.xml#GM">papà</rs>e andavo<kinesic><desc>gesto</desc></kinesic>nella baracca numero 11 perchè veramente il giorno dopo mi aspettava una giornata dura di lavoro<pause/>
+                        <del type="repetition">e</del>e è andato avanti<kinesic><desc>gesto per indicare l'andare avanti del tempo</desc></kinesic> fino ai primi di <date when="09">settembre</date><pause/>
+                    </seg>
+                </u>
+            </div>
+
+
+            <div>
+                <u>
+                    <seg synch="#TS8">  <!--Modiano decide di andare a cercare la sorella Lucia e lo comunica al padre-->
+                        i primi di <date when="09">settembre</date><pause/>è scattata in me <pause/>una cosa <pause/><vocal><desc>ehm</desc></vocal>che scatta normalmente <pause/>avevo capito anch'io <pause/> che non c'era più niente da fare <pause/>che qui eravamo dei condannati a morte <pause/>l'ha detto<persName ref="TEI-ListPerson.xml#MP">Marcello</persName><kinesic><desc>si gira rivolgendosi a <persName ref="TEI-ListPerson.xml#MP">Marcello</persName></desc></kinesic>
+                        una volta che entri qui eri già un morto <pause/>dunque questo era entrato anche nel mio cervellino<pause/> e da quel momento è scattata in me qualche cosa <pause/>io <pause/>mi ero affezionato molto a mia <rs ref="TEI-ListPerson.xml#LM">sorella</rs><pause/>mia sorella<persName ref="TEI-ListPerson.xml#LM">Lucia</persName>era qualche cosa di importante <pause/> per me<pause/>avevo un <rs ref="TEI-ListPerson.xml#GM">papà</rs><pause/>
+                        ma dal <date when="08-16">16 di agosto</date>non vedevo più mia <rs ref="TEI-ListPerson.xml#LM">sorella</rs><pause/> e sapevo molto bene <pause/><kinesic><desc>indica con la mano il Lager B</desc></kinesic>che mia <rs ref="TEI-ListPerson.xml#LM">sorella</rs>era qui <pause/> nel Lager B<pause/>ma non abbiamo avuto nè il tempo nè la possibilità<pause/>di cercarla <pause/>nè mio <rs ref="TEI-ListPerson.xml#GM">papà</rs>nè
+                        io<pause/>allora quando erano i primi di <date when="09">settembre</date> quando <rs ref="TEI-ListPerson.xml#GM">papà</rs>mi disse vai a riposarti<kinesic><desc>fa cenno con la mano come per invitare il figlio ad andare</desc></kinesic>perchè domani ti aspetta una giornata dura di lavoro <pause/> io ho detto no <rs ref="TEI-ListPerson.xml#GM">papà</rs><kinesic><desc>fa cenno di no con la testa</desc></kinesic>
+                        <pause/>io questa sera non vado a riposarmi <pause/>perchè <pause/>perchè ho deciso<pause/>ho deciso di andare a cercare mia <rs ref="TEI-ListPerson.xml#LM">sorella</rs><pause/>lo sai molto bene <pause/><kinesic><desc>gesto con la mano</desc></kinesic>tua figlia<pause/>mia<rs ref="TEI-ListPerson.xml#LM">sorella</rs><pause/><kinesic><desc>indica dove</desc></kinesic>sta dall'altra parte
+                        nè te nè io<pause/>abbiamo avuto l'occasione<pause/>di vederla<pause/>
+                        lui è rimasto a sentirmi senza parlare<pause/>e poi ha alzato le spalle<kinesic><desc>imita il gesto di alzare le spalle che fece il <rs ref="TEI-ListPerson.xml#GM">padre</rs></desc></kinesic><del type="falseStart">in senso</del><pause/><kinesic><desc>gesto con la mano di "rassegnazione"</desc></kinesic>
+                    </seg>
+                </u>
+            </div>
+
+
+
+            <div>
+                <u>
+                    <seg synch="#TS9">  <!--Ricerca della sorella-->
+                        e io <pause/>da quel giorno<pause/>da quella sera<pause/>cercavo<pause/>vedete è lunga<pause/><kinesic><desc>indica la strada lunga</desc></kinesic>la strada<pause/>non è facile<pause/>non è facile<pause/>cercare una persona<pause/><kinesic><desc>indica il Lager B</desc></kinesic>qui dentro<pause/>erano tutte uguali<pause/>
+                        <kinesic iterated="true"><desc>gesto con la mano</desc></kinesic>erano tutte rasate a zero<pause/> avevano tutte un pigiama a righe<pause/>erano tutte magre<pause/>e<pause/>riconoscere mia <rs ref="TEI-ListPerson.xml#LM">sorella</rs>qui dentro era difficilissimo<pause/>ma io ero<pause/>testardo<pause/>volevo<pause/>e non mi ricordo bene se è stato al terzo o quarto tentativo<pause/>una mano<pause/>
+                        <kinesic><desc>imita il gesto della mano che vide</desc></kinesic>io ero là<kinesic><desc>indica dove si trovava</desc></kinesic>
+                        più o meno<pause/>e cerco di capire<pause/>di chi è questa mano <del type="falseStart">che</del><pause/>e non riesco a riconoscere la persona<pause/>però quella mano continua<pause/>a sventolare<pause/><kinesic><desc>si asciuga gli occhi</desc></kinesic>e poi io<pause/>cerco di cercare di darmi da fare perchè <del type="repetition">c'erano</del><kinesic><desc>si gira e indica le torrette</desc></kinesic>
+                        c'erano queste torrette là con<pause/>gli aguzzini che se facevi una mossa sbagliata<pause/><kinesic><desc>gesto per indicare che sparavano</desc></kinesic>e poi piano piano<pause/>mi sono trascinato<pause/>rischiando di essere<pause/>
+                        <kinesic><desc>si gira a vedere il Lager B dove era la <rs ref="TEI-ListPerson.xml#LM">sorella</rs>che lo salutava</desc></kinesic><vocal><desc>ehm</desc></vocal>
+                    </seg>
+                </u>
+            </div>
+
+
+            <div>
+                <u>
+                    <seg synch="#TS10"> <!--Modiano riesce a trovare la sorella Lucia e invita il padre ad andare con lui, ma si rifiuta -->
+                        era la mano di mia <rs ref="TEI-ListPerson.xml#LM">sorella</rs><pause/>l'avevo riconosciuta<pause/>era lei<pause/>ma io sbagliavo<pause/> perchè nel mio pensiero<kinesic><desc>si tocca la testa come a indicare il pensiero</desc></kinesic>era da poco che avevo lasciato<kinesic><desc>gesto con la mano per indicare la direzione della rampa della Morte</desc></kinesic>
+                        nella rampa della morte<pause/>avevo lasciato una ragazza bellissima<pause/>coi suoi capelli lunghi<pause/>in forma<pause/>e mi sono trovato davanti una sagoma<pause/><kinesic><desc>fa segno di no con la testa</desc></kinesic>irriconoscibile<pause/>magra<pause/>con quel pigiama a righe<pause/>rasata a zero<pause/>ma era lei<pause/>era mia sorella<persName ref="TEI-ListPerson.xml#LM">Lucia</persName><pause/>
+                        <kinesic><desc>muove le braccia incrociate su e giù</desc></kinesic>e là <choice><orig>c'è stato</orig><reg>ci sono stati</reg></choice><pause/><kinesic><desc>fa un gesto di abbraccio</desc></kinesic>questi gesti<pause/>questi gesti teneri <del type="repetition">di</del><pause/>di amore fraterno<pause/>e poi<pause/><kinesic><desc>gesto col dito per dire più tardi</desc></kinesic>ci siamo capiti<pause/>senza parlare<pause/>con i gesti<pause/>
+                        <kinesic><desc>ripete il gesto col dito per dire più tardi,dopo</desc></kinesic>e io continuavo<pause/>ma<pause/>non è stata lunga<pause/>anzi<pause/>il giorno dopo<pause/>ho detto a mio <rs ref="TEI-ListPerson.xml#GM">papà</rs><pause/>il risultato di questo mio incontro<pause/><kinesic><desc>si asciuga il naso e gli occhi</desc></kinesic>e credevo di farlo felice<pause/>e io<pause/>
+                        quando ho raccontato questo a mio <rs ref="TEI-ListPerson.xml#GM">papà</rs><pause/>ho detto la verità<pause/>senza volere<pause/>ho detto che<pause/> avevo avuto difficoltà a riconoscerla perchè era in uno stato<pause/>pietevole<pause/><rs ref="TEI-ListPerson.xml#GM">papà</rs>stava là a sentirmi<pause/>e poi alla fine gli ho detto <rs ref="TEI-ListPerson.xml#GM">papà</rs>vieni<pause/>andiamo<pause/><persName ref="TEI-ListPerson.xml#LM">Lucia</persName>ti aspetta<pause/>vieni anche te<pause/>
+                        <kinesic><desc>cenno di no con la testa</desc></kinesic>si è rifiutato<pause/>no<pause/>e io in quel momento da ragazzo non ho capito il motivo<pause/>il perchè lui si rifiutava<pause/>quando poi l'ho capito era troppo tardi<pause/>lui<pause/>voleva ricordarsela<pause/>così come l'ha lasciata nella rampa della Morte<pause/>
+                        era<pause/>un <rs ref="TEI-ListPerson.xml#GM">papà</rs>adorabile<pause/>aveva 45 anni aveva capito tutto<pause/>e non voleva vederla in quelle condizioni<pause/>voleva ricordarsela in quelle condizioni là <pause/>   
+                    </seg>
+                </u>
+            </div>
+
+
+
+            <div>
+                <u>
+                    <seg synch="#TS11"> <!--Scambio del pane tra Sami e Lucia-->
+                        pochi giorni dopo<pause/>neanche<pause/>erano può darsi il <date when="09-10">10 di settembre</date> il <date when="09-09">9 di settembre</date><pause/>quando io sono venuto qua<pause/>volevo<pause/>o l'<date when="09-08">8 settembre</date><pause/>ho voluto regalare qualche cosa a mia <rs ref="TEI-ListPerson.xml#LM">sorella</rs><pause/>si<pause/>ho voluto<pause/>la vedevo in quelle condizioni<pause/>ogni sera ci davano una fetta di pane e io<pause/>
+                        <del type="falseStart">ho avvolto</del><pause/>ho detto <persName ref="TEI-ListPerson.xml#modiano">Sami</persName><pause/><vocal><desc>ehm</desc></vocal>tua <rs ref="TEI-ListPerson.xml#LM">sorella</rs>ha più bisogno di te<pause/>e ho avvolto questa fetta di pane<kinesic><desc>si asciuga il naso</desc></kinesic>in un panno<pause/>e di qua<kinesic><desc>indica la parte in cui si trovava lui e poi si gira per guardare il Lager B</desc></kinesic>
+                        gli ho fatto partire che gliel'ho spedita<pause/>mia <rs ref="TEI-ListPerson.xml#LM">sorella</rs>ha aperto il fazzoletto e ha visto la mia fetta di pane<pause/>e mi ricordo bene quell'abbraccio<kinesic><desc>fa il gesto dell'abbraccio che gli ha fatto sua <rs ref="TEI-ListPerson.xml#LM">sorella</rs></desc></kinesic>che non mi posso scordare<pause/><kinesic><desc>no con la testa</desc></kinesic>
+                        come fai a scordarti questi<pause/>come fai<pause/>e poi <pause/><kinesic><desc>fa il gesto della <rs ref="TEI-ListPerson.xml#LM">sorella</rs>che avvolge qualcosa nel panno e lo lancia verso di lui</desc></kinesic>mi fa segno che mi spedisce indietro il fazzoletto<pause/>dove là dentro c'era di ritorno la mia fetta di pane<pause/>e la sua fetta di pane<pause/>
+                    </seg>
+                </u>
+            </div>
+
+
+
+            <div>
+                <u>
+                    <seg synch="#TS12">
+                        ora<pause/>io vi chiedo<pause/>uno<pause/>può cancellare questa scena<pause/>la si può cancellare<pause/>ecco<pause/>
+                    </seg>
+                </u>
+
+            </div>
+
+
+
+
+            <div>
+                <u>
+                    <seg synch="#TS13"> <!--Lucia non si presenta più al consueto appuntamento col fratello. Modiano lo comunica al padre che decide di presentarsi all'ambulatorio-->
+                        pochi giorni dopo mia <rs ref="TEI-ListPerson.xml#LM">sorella</rs>non si è presentata<pause/>non si è presentata qui<pause/>e avevo capito che avevo perso la cosa più cara che avevo al mondo<pause/>ma io non volevo accettare questa perdita<pause/>no<pause/>
+                        non la volevo accettare<pause/>insistevo<pause/>venivo ancora<pause/>insistevo dicevo <del type="repetition">non</del><del type="truncation">n</del>non è possibile<pause/>non volevo<pause/>ma però<pause/>ho dovuto accettarla<kinesic><desc>si asciuga gli occhi</desc></kinesic>e di questo ho fatto presente a mio <rs ref="TEI-ListPerson.xml#GM">papà</rs> gli ho detto <rs ref="TEI-ListPerson.xml#GM">papà</rs><pause/>
+                        purtroppo<persName ref="TEI-ListPerson.xml#LM">Lucia</persName><pause/>da quel momento in poi mio <rs ref="TEI-ListPerson.xml#GM">papà</rs>pure<pause/>si è lasciato andare<pause/>era inutile continuare a lavorare<pause/>aveva avuto questo grande dispiacere e non voleva più<pause/>era il <date when="09-15">15 di settembre</date>il <date when="09-16">16 di settembre</date> il <date when="09-18">18 di settembre</date>avevo perso i conti<pause/>mio<rs ref="TEI-ListPerson.xml#GM">papà</rs>
+                        <pause/>mi dice<pause/>non mi dice la solita frase<pause/>vai a riposarti perchè domani ti aspetta una giornata dura di lavoro<pause/>no mi dice<pause/>rimani un pochettino con me<pause/><vocal><desc>mmm</desc></vocal>rimani un pochettino con me io mi posso dimenticare questo<pause/>e lui in silenzio mi guardava<pause/>e non parlava<pause/>mi osservava<pause/>e io<pause/>vedevo nel suo viso<pause/>qualche cosa di tranquillità<pause/>di serenità<pause/>
+                        era deciso<pause/>e poi sono stato io a chiedergli <rs ref="TEI-ListPerson.xml#GM">papà</rs>mi vuoi dire qualche cosa<pause/>si<pause/>avvicinati<pause/><kinesic><desc>fa il gesto con la mano per dire di avvicinarsi</desc></kinesic>domani<pause/><kinesic><desc>fa il gesto con la mano per indicare il giorno successivo</desc></kinesic>quando verrai<pause/>io non ci sarò<pause/>e ho detto perchè<pause/>
+                        che è successo<pause/>ti hanno trasferito<pause/>perchè succedeva <kinesic><desc>gesticola</desc></kinesic>ogni tanto che prendevano un prigioniero e lo sbattevano a destra e sinistra<pause/><del type="repetition">no no no no</del><pause/>e allora<pause/>domani io non mi sento bene<pause/>mi presento all'ambulatorio perchè<pause/>e io gli ho detto ma <rs ref="TEI-ListPerson.xml#GM">papà</rs><pause/> sai che cosa vuol dire presentarti all'ambulatorio<pause/>
+                        c'era il passaparola tra di noi<pause/>sapevamo tutti che uno quando si presentava all'ambulatorio aveva deciso di farla finita<pause/>non ti preoccupare<pause/> a me mi cureranno<pause/>io ho insistito ho fatto di tutto per convincerlo ma non ci sono riuscito<pause/>non ci sono riuscito<pause/><rs ref="TEI-ListPerson.xml#GM">papà</rs>non farlo per favore<pause/>non c'è stato niente da fare<pause/> e poi <pause/>
+                        <kinesic><desc>gli fa cenno con la mano di avvicinarsi</desc></kinesic>avvicinati<pause/>mi ha dato la sua benedizione<pause/><kinesic><desc>si asciuga il naso e gli occhi</desc></kinesic>mi ha messo la mano in testa<pause/>mi ha puntato il dito<pause/><kinesic><desc>punta il dito</desc></kinesic>le sue ultime parole erano<pause/>
+                        tieni duro <persName ref="TEI-ListPerson.xml#modiano">Sami</persName><pause/>tu ce la devi fare<pause/>tieni duro <persName ref="TEI-ListPerson.xml#modiano">Sami</persName><pause/>tu ce la devi fare<pause/>adesso<del type="repetition">vai</del><kinesic><desc>gesto con la mano per mandarlo via</desc></kinesic> vai a riposarti<pause/>perchè domani ti aspetta una giornata dura di lavoro<pause/>e ti prego non voltarti<pause/>
+                    </seg>
+                </u>
+            </div>
+
+
+
+            <div>
+                <u>
+                    <seg synch="#TS14">     <!--Sami è rimasto solo -->
+                        il giorno dopo<pause/>mio <rs ref="TEI-ListPerson.xml#GM">papà</rs>non c'era più<pause/>allora voi vi rendete conto un mese dopo<pause/>il nostro arrivo<pause/> il <date when="09-16">16</date>il<date when="09-18">18 di settembre</date>il <date when="09-19">19</date>sarà stato il <date when="09-20">20</date><pause/>io ero rimasto <del type="repetition">solo</del><pause/>solo<pause/><kinesic><desc>soffia il naso e indica il luogo in cui si trovava</desc></kinesic>qui<pause/>a tenere duro<pause/>a sentire le sue ultime parole<pause/>
+                        tieni duro <persName ref="TEI-ListPerson.xml#modiano">Sami</persName><pause/>tu ce la devi fare<pause/><del type="repetition">ma come fai</del><pause/>come fai<pause/>ecco
+                    </seg>
+                </u>
+            </div>
+
+
+            
+
+
+
+
+        
+        
+        </body> 
+        <back> <!-- appendici, indici, postfazioni --></back>
+
+    </text>
+
+           
+</TEI> 

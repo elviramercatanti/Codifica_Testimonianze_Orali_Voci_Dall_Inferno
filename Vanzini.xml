@@ -1,0 +1,1296 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+    <teiHeader>
+
+
+        <fileDesc>
+            <titleStmt>
+                <title>Testimonianza di Enrico Vanzini, l'ultimo Sonderkommando italiano</title>
+            </titleStmt>
+
+            <editionStmt>
+                <edition></edition>
+                <respStmt>
+                    <resp>Progetto coordinato da</resp>
+                    <name ref="#AMDG"> Angelo Mario Del Grosso</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Encoding by</resp>
+                    <name ref="#EM">Elvira Mercatanti</name>
+                    <note>Codifica realizzata come progetto di tirocinio</note>
+                </respStmt>
+            </editionStmt>
+
+            <publicationStmt>
+                <publisher></publisher>
+            </publicationStmt>
+
+
+
+
+            <sourceDesc>  <!--contiene una citazione con i dettagli del copione utilizzato per un testo orale -->
+    
+
+
+                <recordingStmt> <!-- descrive l'insieme delle registrazioni usate nella trascrizione di un testo orale.-->
+
+                    <recording type="video" dur="">
+
+                        <date when="2014-04-11">11 aprile 2014</date>
+                        
+                        <respStmt>
+                            <resp>Registrato da</resp>
+                            <name>TelePace</name>
+                        </respStmt>
+
+
+                        <equipment><!--fornisce dettagli tecnici sull'attrezzatura per una registrazione audio o video utilizzata quale fonte di un testo orale-->
+                            <p></p>
+                        </equipment>
+
+
+                        <broadcast>
+                            <bibl source="https://youtu.be/Sb0AlFYIGqg?list=PLJYTp5OOq0Z5dN6-rb9VJn8SXxDYk1rKz">
+                                <author>TelePace</author>
+                                <title>L'Ultimo Sonderkommando Italiano</title>
+                                <date when="2014-04-11">11 aprile 2014</date>
+                                 <note>Il video si trova su YouTube</note>    
+                            </bibl> 
+                        </broadcast>
+
+                    </recording>
+
+                </recordingStmt>
+
+            </sourceDesc>
+
+        </fileDesc>
+
+
+        <encodingDesc><!--(descrizione della codifica) documenta la relazione fra un documento elettronico e la o le fonti da cui è derivato. -->
+            <transcriptionDesc ident="" version=""/><!-- describes the set of transcription conventions used, particularly for spoken material. -->
+        </encodingDesc>
+
+
+
+        <profileDesc><!--(descrizione del profilo del testo) fornisce una descrizione dettagliata degli aspetti non bibliografici di un testo, in modo particolare le lingue e i linguaggi secondari utilizzati, la situazione in cui è stato prodotto il testo, i partecipanti e la relativa ambientazione-->
+
+            <particDesc>
+
+                <listPerson>
+                    <!--Testimone-->
+                    <person xml:id="vanzini">
+                        <persName>
+                            <forename>Enrico</forename>
+                            <surname>Vanzini</surname>
+                        </persName>
+                    </person>
+
+                    <!--Intervistatore-->
+                    <person xml:id="intervistatore">
+                        <persName>
+                            <forename></forename>
+                            <surname></surname>
+                        </persName>
+                    </person>
+                </listPerson>
+
+            </particDesc>
+
+            <langUsage>
+                <language ident="it">Italiano</language> 
+            </langUsage>
+        
+        </profileDesc>
+
+    
+    </teiHeader> 
+
+
+
+
+    <text>
+
+        <front><!--frontespizio, premessa-->
+        
+            
+            <div type="timeline">
+                <timeline xml:id="TL1">
+                    <when xml:id="TR1" absolute="3:21"/>
+                    <when xml:id="TR2" absolute="7:02"/>
+                    <when xml:id="TR3" absolute="11:24"/>
+                    <when xml:id="TR4" absolute="30:07"/>
+                    <when xml:id="TR5" absolute="33:20"/>
+                    <when xml:id="TR6" absolute="35:02"/>
+                </timeline>
+            </div>
+
+
+            <div type="regesto">
+                <p>
+                    <seg synch="#TR1">
+                        Vanzini ha iniziato a raccontare ciò che ha vissuto e a testimoniare nelle scuole solo dopo 60 anni, a seguito di un incontro avvenuto con le figlie di un'amica di famiglia, le quali si mostrarono interessate alla sua storia e gli chiesero di raccontarla.
+                    </seg>
+                    
+                    <seg synch="#TR2">
+                        Vanzini racconta in cosa consisteva il lavoro all'interno dei forni crematori che ha svolto nel campo di concentramento di Dachau.
+                    </seg>
+
+                    <seg synch="#TR3">
+                        Prima di venire internato a Dachau Vanzini ha lavorato in una fabbrica ad Ingolstadt, in Germania, dalla quale fuggì insieme ad altri compagni approfittando di un bombardamento. Dopo 15 giorni di cammino lungo la strada che portava a Linz, incontrarono una ragazza italiana che finse di aiutarli offrendo loro del cibo e poi li fece arrestare da dei soldati tedeschi che stava ospitando nella sua casa. Furono quindi legati, portati alla stazione di Monaco e successivamente condotti a Buchenwald.
+                    </seg>
+
+                    <seg synch="#TR4">
+                        I primi giorni del gennaio 1945 Vanzini fu condotto a lavorare insieme ad altri prigionieri in una fattoria vicino al campo. Durante il tragitto verso quella fattoria incontrò un'anziana donna che gli offrì
+                        una fetta di pane, non curandosi del soldato tedesco che accompagnava il gruppo e che avrebbe potuto punirla. Vanzini cercò inizialmente di rifiutare la generosa offerta dell'anziana
+                        poichè temeva ripercussioni da parte della guardia ma fu poi costretto ad afferrare la fetta di pane perchè la donna non demordeva. La guardia però si accorse dell'accaduto e uccise l'anziana.
+                    </seg>  
+
+                    <seg synch="#TR5">
+                        Vanzini racconta di non aver mai mangiato quella fetta di pane e di averla consegnata alla madre una volta ritornato a casa.
+                    </seg>
+
+                    <seg synch="#TR6">
+                        Nel 2013 Vanzini è stato insignito della Medaglia d'Onore dal Presidente della Repubblica Giorgio Napolitano. 
+                    </seg>
+
+                </p>
+
+            </div>
+        
+        
+        </front>
+
+
+        <body>
+        
+            <timeline>
+
+                <when xml:id="T-t01" absolute="1:02"/>
+                <when xml:id="T-t02" since="#T-t01"/>
+
+                <when xml:id="T-t03" absolute="1:03"/>
+                <when xml:id="T-t04" since="#T-t03"/>
+
+                <when xml:id="T-t05" absolute="1:48"/>
+                <when xml:id="T-t06" since="#T-t05"/>
+
+                <when xml:id="T-t07" absolute="2:34"/>
+                <when xml:id="T-t08" since="#T-t07"/>
+
+                <when xml:id="T-t09" absolute="3:21"/>
+                <when xml:id="T-t10" since="#T-t09"/>
+
+                <when xml:id="T-t11" absolute="4:29"/>
+                <when xml:id="T-t12" since="#T-t11"/>
+
+                <when xml:id="T-t13" absolute="4.30"/>
+                <when xml:id="T-t14" since="#T-t13"/>
+
+                <when xml:id="T-t15" absolute="4:38"/>
+                <when xml:id="T-t16" since="#T-t15"/>
+
+                <when xml:id="T-t17" absolute="4:51"/>
+                <when xml:id="T-t18" since="#T-t17"/>
+
+                <when xml:id="T-t19" absolute="4:58"/>
+                <when xml:id="T-t20" since="#T-t19"/>
+
+                <when xml:id="T-t21" absolute="5:01"/>
+                <when xml:id="T-t22" since="#T-t21"/>
+
+                <when xml:id="T-t23" absolute="5:04"/>
+                <when xml:id="T-t24" since="#T-t23"/>
+
+                <when xml:id="T-t25" absolute="5:33"/>
+                <when xml:id="T-t26" since="#T-t25"/>
+
+                <when xml:id="T-t27" absolute="6:42"/>
+                <when xml:id="T-t28" since="#T-t27"/>
+
+                <when xml:id="T-t29" absolute="7:02"/>
+                <when xml:id="T-t30" since="#T-t29"/>
+
+                <when xml:id="T-t31" absolute="8:00"/>
+                <when xml:id="T-t32" since="#T-t31"/>
+
+                <when xml:id="T-t33" absolute="8:04"/>
+                <when xml:id="T-t34" since="#T-t33"/>
+
+                <when xml:id="T-t35" absolute="8:26"/>
+                <when xml:id="T-t36" since="#T-t35"/>
+
+                <when xml:id="T-t37" absolute="9:22"/>
+                <when xml:id="T-t38" since="#T-t37"/>
+
+                <when xml:id="T-t39" absolute="9:26"/>
+                <when xml:id="T-t40" since="#T-t39"/>
+
+                <when xml:id="T-t41" absolute="10:05"/>
+                <when xml:id="T-t42" since="#T-t41"/>
+
+                <when xml:id="T-t43" absolute="11:20"/>
+                <when xml:id="T-t44" since="#T-t43"/>
+
+                <when xml:id="T-t45" absolute="11:24"/>
+                <when xml:id="T-t46" since="#T-t45"/>
+
+                <when xml:id="T-t47" absolute="11:56"/>
+                <when xml:id="T-t48" since="#T-t47"/>
+
+                <when xml:id="T-t49" absolute="12:19"/>
+                <when xml:id="T-t50" since="#T-t49"/>
+
+                <when xml:id="T-t51" absolute="12:31"/>
+                <when xml:id="T-t52" since="#T-t51"/>
+
+                <when xml:id="T-t53" absolute="12:36"/>
+                <when xml:id="T-t54" since="#T-t53"/>
+
+                <when xml:id="T-t55" absolute="12:39"/>
+                <when xml:id="T-t56" since="#T-t55"/>
+
+                <when xml:id="T-t57" absolute="12:55"/>
+                <when xml:id="T-t58" since="#T-t57"/>
+
+                <when xml:id="T-t59" absolute="13:01"/>
+                <when xml:id="T-t60" since="#T-t59"/>
+
+                <when xml:id="T-t61" absolute="13:42"/>
+                <when xml:id="T-t62" since="#T-t61"/>
+
+                <when xml:id="T-t63" absolute="14:12"/>
+                <when xml:id="T-t64" since="#T-t63"/>
+
+                <when xml:id="T-t65" absolute="14:49"/>
+                <when xml:id="T-t66" since="#T-t65"/>
+
+                <when xml:id="T-t67" absolute="14:50"/>
+                <when xml:id="T-t68" since="#T-t67"/>
+
+                <when xml:id="T-t69" absolute="15:25"/>
+                <when xml:id="T-t70" since="#T-t69"/>
+
+                <when xml:id="T-t71" absolute="15:28"/>
+                <when xml:id="T-t72" since="#T-t71"/>
+
+                <when xml:id="T-t73" absolute="16:01"/>
+                <when xml:id="T-t74" since="#T-t73"/>
+
+                <when xml:id="T-t75" absolute="16:49"/>
+                <when xml:id="T-t76" since="#T-t75"/>
+
+                <when xml:id="T-t77" absolute="17:20"/>
+                <when xml:id="T-t78" since="#T-t77"/>
+
+                <when xml:id="T-t79" absolute="17:52"/>
+                <when xml:id="T-t80" since="#T-t79"/>
+
+                <when xml:id="T-t81" absolute="17:56"/>
+                <when xml:id="T-t82" since="#T-t81"/>
+
+                <when xml:id="T-t83" absolute="18:05"/>
+                <when xml:id="T-t84" since="#T-t83"/> 
+
+                <when xml:id="T-t85" absolute="19:02"/>
+                <when xml:id="T-t86" since="#T-t85"/>
+
+                <when xml:id="T-t87" absolute="19.44"/>
+                <when xml:id="T-t88" since="#T-t88"/>
+
+                <when xml:id="T-t89" absolute="19.45"/>
+                <when xml:id="T-t90" since="#T-t89"/>
+
+                <when xml:id="T-t91" absolute="19.46"/>
+                <when xml:id="T-t92" since="#T-t91"/>
+
+                <when xml:id="T-t93" absolute="20:15"/>
+                <when xml:id="T-t94" since="#T-t93"/>
+
+                <when xml:id="T-t95" absolute="20.32"/>
+                <when xml:id="T-t96" since="#T-t95"/>
+
+                <when xml:id="T-t97" absolute="22:13"/>
+                <when xml:id="T-t98" since="#T-t97"/>
+
+                <when xml:id="T-t99" absolute="22:41"/>
+                <when xml:id="T-t100" since="#T-t99"/>
+
+                <when xml:id="T-t101" absolute="23:03"/>
+                <when xml:id="T-t102" since="#T-t101"/>
+
+                <when xml:id="T-t103" absolute="23:04"/>
+                <when xml:id="T-t104" since="#T-t103"/>
+
+                <when xml:id="T-t105" absolute="23:06"/>
+                <when xml:id="T-t106" since="#T-t105"/>
+
+                <when xml:id="T-t107" absolute="23:42"/>
+                <when xml:id="T-t108" since="#T-t107"/>
+
+                <when xml:id="T-t109" absolute="24:06"/>
+                <when xml:id="T-t110" since="#T-t109"/>
+
+                <when xml:id="T-t111" absolute="24:50"/>
+                <when xml:id="T-t112" since="#T-t111"/>
+
+                <when xml:id="T-t113" absolute="25:03"/>
+                <when xml:id="T-t114" since="#T-t113"/>
+
+                <when xml:id="T-t115" absolute="25:20"/>
+                <when xml:id="T-t116" since="#T-t115"/>
+
+                <when xml:id="T-t117" absolute="25:29"/>
+                <when xml:id="T-t118" since="#T-t117"/>
+
+                <when xml:id="T-t119" absolute="26:22"/>
+                <when xml:id="T-t120" since="#T-t119"/>
+
+                <when xml:id="T-t121" absolute="26:23"/>
+                <when xml:id="T-t122" since="#T-t121"/>
+
+                <when xml:id="T-t123" absolute="26:42"/>
+                <when xml:id="T-t124" since="#T-t123"/>
+
+                <when xml:id="T-t125" absolute="27:13"/>
+                <when xml:id="T-t126" since="#T-t125"/>
+
+                <when xml:id="T-t127" absolute="27:18"/>
+                <when xml:id="T-t128" since="#T-t127"/>
+
+                <when xml:id="T-t129" absolute="27:21"/>
+                <when xml:id="T-t130" since="#T-t129"/>
+
+                <when xml:id="T-t131" absolute="27:35"/>
+                <when xml:id="T-t132" since="#T-t131"/>
+
+                <when xml:id="T-t133" absolute="27.37"/>
+                <when xml:id="T-t134" since="#T-t133"/>
+
+                <when xml:id="T-t135" absolute="28:31"/>
+                <when xml:id="T-t136" since="#T-t135"/>
+
+                <when xml:id="T-t137" absolute="28:43"/>
+                <when xml:id="T-t138" since="#T-t137"/>
+
+                <when xml:id="T-t139" absolute="28:45"/>
+                <when xml:id="T-t140" since="#T-t139"/>
+
+                <when xml:id="T-t141" absolute="28:57"/>
+                <when xml:id="T-t142" since="#T-t141"/>
+
+                <when xml:id="T-t143" absolute="29:00"/>
+                <when xml:id="T-t144" since="#T-t143"/>
+
+                <when xml:id="T-t145" absolute="29:02"/>
+                <when xml:id="T-t146" since="#T-t145"/>
+
+                <when xml:id="T-t147" absolute="29:08"/>
+                <when xml:id="T-t148" since="#T-t147"/>
+
+                <when xml:id="T-t149" absolute="29:15"/>
+                <when xml:id="T-t150" since="#T-t149"/>
+
+                <when xml:id="T-t151" absolute="30:07"/>
+                <when xml:id="T-t152" since="#T-t151"/>
+
+                <when xml:id="T-t153" absolute="30:09"/>
+                <when xml:id="T-t154" since="#T-t153"/>
+
+                <when xml:id="T-t155" absolute="30:11"/>
+                <when xml:id="T-t156" since="#T-t155"/>
+
+                <when xml:id="T-t157" absolute="30:14"/>
+                <when xml:id="T-t158" since="#T-t157"/>
+
+                <when xml:id="T-t159" absolute="21:35"/>
+                <when xml:id="T-t160" since="#T-t159"/>
+
+                <when xml:id="T-t161" absolute="32:07"/>
+                <when xml:id="T-t162" since="#T-t161"/>
+
+                <when xml:id="T-t163" absolute="32:09"/>
+                <when xml:id="T-t164" since="#T-t163"/>
+
+                <when xml:id="T-t165" absolute="32:22"/>
+                <when xml:id="T-t166" since="#T-t165"/>
+
+                <when xml:id="T-t167" absolute="33:02"/>
+                <when xml:id="T-t168" since="#T-t167"/>
+
+                <when xml:id="T-t169" absolute="33:09"/>
+                <when xml:id="T-t170" since="#T-t169"/>
+
+                <when xml:id="T-t171" absolute="33:30"/>
+                <when xml:id="T-t172" since="#T-t171"/>
+
+                <when xml:id="T-t173" absolute="33:44"/>
+                <when xml:id="T-t174" since="#T-t173"/>
+
+                <when xml:id="T-t175" absolute="34:11"/>
+                <when xml:id="T-t176" since="#T-t175"/>
+
+                <when xml:id="T-t177" absolute="34:54"/>
+                <when xml:id="T-t178" since="#T-t177"/>
+
+                <when xml:id="T-t179" absolute="34:57"/>
+                <when xml:id="T-t180" since="#T-t179"/>
+
+                <when xml:id="T-t181" absolute="34:59"/>
+                <when xml:id="T-t182" since="#T-t181"/>
+
+                <when xml:id="T-t183" absolute="35:48"/>
+                <when xml:id="T-t184" since="#T-t183"/>
+
+                <when xml:id="T-t185" absolute="36:00"/>
+                <when xml:id="T-t186" since="#T-t185"/>
+
+            </timeline>
+
+
+            <u who="#intervistatore">
+                Se c'è un libro che bisogna assolutamente leggere per capire quella che è stata<pause/>la prima guerra mondiale vista dal di dentro<kinesic><desc>gesto con la mano per indicare dall'interno</desc></kinesic>dalle persone che l'hanno subita<pause/>è senza dubbio <title>Un anno sull'altipiano</title>
+                di <persName ref="TEI-ListPerson.xml#EL">Emilio Lussu</persName><pause/>e se c'è un libro<pause/>che bisogna assolutamente leggere per capire che cosa è stato l'olocausto dalla parte di chi c'è stato dentro<pause/>anche se con una testimonianza tutta particolare<pause/> è senza dubbio il libro <title>L'ultimo Sonderkommando italiano</title>
+                <pause/>di <persName ref="TEI-ListPerson.xml#vanzini">Enrico Vanzini</persName><pause/>o meglio<pause/>curato da <persName ref="TEI-ListPerson.xml#RB">Roberto Brumat</persName><pause/> che ha per così dire agevolato<pause/>signor <persName ref="TEI-ListPerson.xml#vanzini">Enrico</persName>
+                <pause/>la sua grande<pause/><vocal><desc>ehm</desc></vocal>voglia <anchor synch="#T-t01"/><pause/>dopo tanti anni di silenzio<anchor synch="#T-t02"/> <pause/> <anchor synch="#T-t03"/>di raccontare<pause/>giusto<anchor synch="#T-t04"/>
+            </u>
+
+            <u who="#vanzini">
+                <anchor synch="#T-t01"/>si<anchor synch="#T-t02"/>
+                <anchor synch="#T-t03"/>si<pause/><vocal><desc>ehm</desc></vocal><anchor synch="#T-t04"/>
+                questo è giusto<pause/>è vero 
+            </u>
+
+           
+            <u who="#intervistatore">
+                e come si fa a raccontare dopo tanti anni di silenzio<pause/>come mai si sta tanti anni in silenzio e poi 
+            </u>
+              
+            <u who="#vanzini">
+                perchè<pause/>guardi<pause/>io quando che son ritornato a casa<pause/>ero malato <pause/>dovevo andare<pause/>d'urgenza<pause/>all'ospedale militare che<del type="reformulation">io</del> ero a <placeName ref="TEI-ListPlace.xml#VA">Varese</placeName><pause/>cioè l'ospedale era a <placeName ref="TEI-ListPlace.xml#VA">Varese</placeName><pause/>
+                io avevo 25 chilometri da percorrere per andare all'ospedale<pause/>allora sono andato a vedere qualche ente magari<del type="reformulation">come</del><vocal><desc>ehm</desc></vocal>dicevano quell'ente che doveva venire a prenderci fino a <placeName ref="TEI-ListPlace.xml#MO">Monaco</placeName><pause/>e invece non si è visto<pause/>
+                era un'ente<pause/>diciamo<pause/>del comune<pause/>un'ente che
+            </u>
+
+            <u who="#intervistatore">
+                certo pubblico
+            </u>
+            
+            <u who="#vanzini">
+                <anchor synch="#T-t05"/>si pubblico<anchor synch="#T-t06"/>e allora sono andato a vedere perchè gliel'ho detto io<pause/>devo essere curato perchè c'ho il sangue che è infettato<del type="reformulation">la</del>per forza di cose
+            </u>
+
+            <u who="#intervistatore">
+                <anchor synch="#T-t05"/>pubblico statale<anchor synch="#T-t06"/>
+            </u>
+       
+            <u who="#intervistatore">
+                ricorda perfettamente io credo quel giorno<pause/>in cui<pause/>è arrivato<pause/><del type="reformulation">beh</del>innanzitutto mi dica una cosa<pause/>che cosa vuol dire spieghiamolo a casa cosa si nasconde dietro la parola <foreign xml:lang="de">Sonderkommando</foreign> 
+            </u>
+
+            <u who="#vanzini">
+                cioè<pause/>era<pause/>che<pause/>noi ero<del type="correction">eravamo</del>comandati di<pause/>fare ciò che facevano due<pause/>diciamo<pause/>veramente<del type="truncation">d</del>due che erano al <del type="reformulation">ai</del>forni crematori
+                <pause/>questi due erano due normali<pause/>due <anchor synch="#T-t07"/><del type="truncation">mi</del><anchor synch="#T-t08"/> <del type="repetition">no</del>no<pause/>erano<pause/> civili<pause/> che facevano quel lavoro in <del type="repetition">questi</del>questi forni 
+            </u>
+
+            <u who="#intervistatore">
+                <anchor synch="#T-t07"/>prigionieri militari <anchor synch="#T-t08"/>
+                forni crematori
+            </u>
+
+            <u who="#vanzini">
+                crematori
+            </u>
+
+            <u who="#intervistatore">
+                campi di concentramento
+            </u>
+
+            <u who="#vanzini">
+                si<pause/>a<placeName ref="TEI-ListPlace.xml#DA">Dachau</placeName><pause/>e quindi questi sono stati trasferiti<del type="reformulation">dovevano</del>essere trasferiti a <placeName ref="TEI-ListPlace.xml#MO">Monaco</placeName>per altre mansioni<pause/>allora ci hanno obbligati noi<choice><orig>fare</orig><reg>a fare</reg></choice>quello che 
+                facevano loro<pause/>cioè praticamente si doveva fare<pause/>buttare questi poveretti questi cadaveri che erano dentro al Lager nei forni crematori perchè volevano distruggere più che potevano ciò che<del type="truncation">a</del>avevano fatto 
+            </u>
+
+
+            <u who="#intervistatore">
+                lei ha visto delle cose che senz'altro l'hanno segnata e che hanno fatto si che per 60 anni come dicevamo prima ci fosse silenzio
+            </u>
+
+            <u who="#vanzini">
+                si
+            </u>
+
+            <u who="#intervistatore">
+                poi lei ha capito che invece bisognava con fatica riaprire quella ferita no parlarne
+                <anchor synch="#T-t09"/> giusto <anchor synch="#T-t10"/>
+            </u>
+
+            <u who="#vanzini">
+                <anchor synch="#T-t09"/> si<vocal><desc>ehm</desc></vocal> <anchor synch="#T-t10"/>e allora<del type="reformulation">si</del>perchè io<pause/>a dire la verità<pause/>sono stato 60 anni<pause/>senza mai parlare perchè<pause/>come ho detto che non c'era nessuno che ci aiutava<pause/>e allora<pause/>su questo caso<pause/>io<pause/>
+                <del type="reformulation">è</del>stato una volta che dovevo fare delle punture perchè avevo tutti i dolori delle batoste che si è preso<pause/>e quindi sono andato da un'amica che <del type="reformulation">di</del>casa che prima faceva l'infermiera <pause/>era diciamo che era <del type="truncation">i</del>in pensione<pause/>
+                e sapevo che faceva le punture come si voleva e allora sono andato a farle<pause/>in quel mentre lei questa donna aveva due ragazze che faceva<del type="reformulation">una</del> faceva la maestra a <placeName ref="TEI-ListPlace.xml#TSB">Tezze sul Brenta</placeName><pause/>l'altra invece era<del type="correction">faceva</del>
+                la maestra a <placeName ref="TEI-ListPlace.xml#CI">Cittadella</placeName><pause/>allora stavano guardando un diciamo<pause/>era un <del type="correction">una</del><pause/> 
+            </u>
+            
+
+            <u who="#intervistatore">
+                un filmato una rivista un libro
+            </u>
+            
+            <u who="#vanzini">
+                no<pause/>una rivista
+            </u>
+
+            <u who="#intervistatore">
+                una rivista
+            </u>
+
+            <u who="#vanzini">
+                facevano <del type="reformulation">stavano</del>guardando questa rivista era una rivista dove<del type="reformulation">verso</del>alla<del type="correction">lo</del>Shoah verso <anchor synch="#T-t11"/>in questi giorni<anchor synch="#T-t12"/>
+            </u>
+
+            <u who="#intervistatore">
+                <anchor synch="#T-t11"/>si che ricordava<anchor synch="#T-t12"/>
+                <anchor synch="#T-t13"/>si che ricordava questa giornata della memoria <anchor synch="#T-t14"/>
+            </u>       
+
+            <u who="#vanzini">
+                <anchor synch="#T-t13"/><vocal><desc>ehm</desc></vocal>si<anchor synch="#T-t14"/> e questa rivista portava diciamo le figure degli ebrei <anchor synch="#T-t15"/>che<anchor synch="#T-t16"/> cioè che facevano delle cose che e loro mi han detto guarda qua no<pause/> ho detto cosa vuoi che<choice><orig>guarda</orig><reg>guardi</reg></choice>
+                se io son stato no e ho visto questa gente<pause/> allora son rimasti là no<pause/> ha detto ma <anchor synch="#T-t17"/>possibile<anchor synch="#T-t18"/> e allora mi han detto no rimani a pranzo che vogliamo sentire la tua storia
+            </u>
+
+            <u who="#intervistatore">
+                <anchor synch="#T-t15"/> certo <anchor synch="#T-t16"/>
+                <anchor synch="#T-t17"/> tu c'eri<anchor synch="#T-t18"/>
+            </u> 
+            
+
+            <u who="#intervistatore">
+                e lì è ricominciata la storia 
+            </u>
+            
+            <u who="#vanzini">
+                <anchor synch="#T-t19"/>e io <anchor synch="#T-t20"/>
+            </u>
+
+            <u who="#intervistatore">
+                <anchor synch="#T-t19"/>quella che lei<anchor synch="#T-t20"/>ha portato poi<anchor synch="#T-t21"/>in giro <anchor synch="#T-t22"/> 
+            </u>
+
+            <u who="#vanzini">
+                si dopo l'ho portata <anchor synch="#T-t21"/>per le scuole <anchor synch="#T-t22"/>
+            </u>
+
+            <u who="#intervistatore">
+                certo<pause/>prima di arrivare al libro<pause/> <anchor synch="#T-t23" />tante scuole <anchor synch="#T-t24" /> scuole anche adesso naturalmente
+            </u>
+
+            <u who="#vanzini">
+                <anchor synch="#T-t23" />si<anchor synch="#T-t24" /> si<pause/><del type="repetition">si</del>si<pause/>è quattro anni che io vado nelle scuole e sono molto contento perchè ascoltano con <choice><orig>certi</orig><reg>certo</reg></choice>interesse questa cosa<pause/>poi fanno domande
+                <vocal><desc>ehm</desc></vocal>io <del type="truncation">p</del>per me no<pause/>mi sembra che<pause/>il tempo mi sfugge
+
+            </u>
+
+            <u who="#intervistatore">
+               mi dica una cosa<pause/>adesso le faccio raccontare appunto anche di quelle giornate ma quando lei sente parlare<pause/>e sente qualcuno che nega l'esistenza di quei periodi delle camere a gas dei campi di <anchor synch="#T-t25"/>concentro<anchor synch="#T-t26"/>
+               <del type="correction">concentramento</del> cosa pensa
+
+            </u>
+
+            <u who="#vanzini">
+                <anchor synch="#T-t25"/>si<anchor synch="#T-t26"/> beh io guardi le dico la verità è stato<pause/>poco tempo fa <pause/>una sera mi telefona un signore mi ha detto che era un geometra o un ingegnere e m'ha detto ma lei è il signor <persName ref="TEI-ListPerson.xml#vanzini">Vanzini</persName>si ho detto perchè ha bisogno di qualcosa
+                credevo che magari che fosse qualche maestro che<del type="reformulation">e</del>ha detto io <vocal><desc>ehm</desc></vocal>sono l'ingegnere tale e guardi che ciò che dice a lei io dico che non è verità perchè io so che i campi di concentramento che lei dice non c'erano nè camere a gas nè forni crematori ho detto senta signore<pause/> 
+                mi faccia la cortesia ho fatto sette mesi io e ho lavorato dentro questi qua e ho tirato fuori persone dentro le camere a gas <pause/>quindi come fa lei a dir questo<pause/> e mi dà<del type="reformulation">e</del> mi dice anche che io son quello come un impostore ho detto mi faccia la cortesia si informi bene e poi mi domanda
+            </u>
+
+            <u who="#intervistatore">
+                si ricorda la prima volta che l'hanno preso obbligato e lei si è reso conto di quello<anchor synch="#T-t27"/>che succedeva là <anchor synch="#T-t28"/>
+            </u>
+
+            <u who="#vanzini">
+                <anchor synch="#T-t27"/>si <del type="truncation">per</del> <anchor synch="#T-t28"/> <vocal><desc>ehm</desc></vocal>questo qua è un fatto che noi <del type="repetition">al</del> al mattino si doveva andare no fuori sul grande piazzale là venivano a chiederci<pause/>no i lavori<pause/>chi nella fattoria chi fuori chi<del type="truncation">n</del>n nelle<pause/>
+                <del type="reformulation" >diciamo</del>dentro le <anchor synch="#T-t29"/>fabbriche<anchor synch="#T-t30"/>
+            </u>
+
+            <u who="#intervistatore">
+                <anchor synch="#T-t29"/>fabbriche certo <anchor synch="#T-t30"/>
+            </u>
+
+            <u who="#vanzini">
+                e allora<pause/>è stato che mi han chiamato perchè si andava a numero non più a nome e allora bisognava stare attenti a che numero perchè in tedesco è molto difficile<pause/>e mi han chiamato io e un francese<pause/>e allora siamo andati fuori<pause/>e m'han detto <foreign xml:lang="de" resp="#EM" cert="high">eins zwei <gap reason="inaudible" extent="2 words"/>
+                </foreign>forni crematori<pause/><unclear reason="inaudible">vale a dire</unclear>uno e due dovete lavorare ai forni crematori<pause/>e io non <del type="repetition">sapevo</del>sapevo neanche cosa erano questi forni<pause/> e loro mi hanno accompagnato con la guardia<pause/>e siamo andati là<pause/>quando che<vocal><desc>ehm</desc></vocal>
+                ho visto che ha aperto la porta mi è venuto come un <del type="correction">una</del>vampata<del type="repetition">di</del>di calore di un odore di cadavere proprio strano di carne bruciata e io son rimasto là e ho visto questi forni <del type="repetition">che</del>che c'era un fuoco<pause/>può darsi anche magari a mille gradi chi lo sa
+                perchè se si buttava una persona in cinque minuti neanche <del type="repetition">era</del> era <gap reason="inaudible" extent="3 words"/> <anchor synch="#T-t31"/>e là<anchor synch="#T-t32"/> 
+            </u>
+
+
+            <u who="#intervistatore">
+                <anchor synch="#T-t31"/>cosa c'era<anchor synch="#T-t32"/> cosa c'era in quelle camere a gas che cosa ha visto <anchor synch="#T-t33"/>in quelle camere a gas <anchor synch="#T-t34"/> 
+            </u>
+
+            <u who="#vanzini">
+                <anchor synch="#T-t33"/> e là <anchor synch="#T-t34"/> cioè <vocal><desc>ehm</desc></vocal>più che altro <del type="truncation">s</del>son<del type="reformulation">dentro</del> là io ho sempre levato gente ebraica<pause/>che arrivava gli dicevano andiamo che facciamo le docce e io tante <del type="reformulation">io</del> una volta l'ho sentito 
+                la prima volta ho detto ma caspita se le docce son di là e qua no <anchor synch="#T-t35"/>dove <anchor synch="#T-t36"/> eh vanno sulle camere e allora sapevo dove erano<pause/>e allora li han messi dentro dicendo che eran le docce loro poveretti pensavano di andar dentro le docce e invece aprivano il gas verso sera sempre<pause/>al mattino c'era un
+                <del type="correction">una</del>strage abbracciati avvinghiati uno con l'altro e sentivano la morte vicina si stringevano al mattino si doveva levarli per metterli nei forni<pause/>e come si fa a mettere due persone attaccate avvinghiate <pause/>allora si cercava di distaccarle con la forza e si sentiva che si rompevano perfino le ossa perchè col freddo e
+                <del type="repetition">col</del> col diciamo che era il mese di <date when="10">ottobre</date> o <date when="11">novembre</date>e là c'era la neve già<pause/>e quindi  
+
+            </u>
+
+            <u who="#intervistatore">
+                <anchor synch="#T-t35"/> li portano dall'altra parte <anchor synch="#T-t36"/>
+            </u>
+
+
+            <u who="#intervistatore">
+                <del type="truncation">per quan</del>per quanto tempo ha sentito<pause/>
+            </u>
+
+            <u who="#vanzini">
+                eh
+            </u>
+
+            <u who="#intervistatore">
+                quei rumori per quanto tempo ha sentito quei rumori di ossa rotte 
+            </u>
+
+            <u who="#vanzini">
+                <anchor synch="#T-t37"/><del type="truncation">f</del>fino<anchor synch="#T-t38"/>
+            </u>
+
+            <u who="#intervistatore">
+                <anchor synch="#T-t37"/>quell'odore<pause/>quell'odore infinito<anchor synch="#T-t38"/>
+            </u>
+
+            <u who="#vanzini">
+                <del type="repetition">quindici</del>quindici giorni <anchor synch="#T-t39"/>sono stato <anchor synch="#T-t40"/>
+            </u>
+
+            <u who="#intervistatore">
+                <anchor synch="#T-t39"/> quindici interminabili giorni <anchor synch="#T-t40"/>
+            </u>
+
+            <u who="#vanzini">
+                quindici giorni proprio guardi interminabili perchè io avevo sempre il mal di testa mi sentivo sempre strano e poi quando che si buttava dentro questa gente li mettevamo sulle grate e poi si alzava fino a quando che c'era forza e dopo le forze mancavano e allora cosa han fatto <pause/>han fatto che han messo come una leva si tirava si alzava e andavano dentro al forno
+                <del type="repetition">perchè </del> perchè non <unclear reason="inaudible">eravamo</unclear> più capace <pause/>e allora loro avevano bisogno di eliminare tutti questi cadaveri vede 
+            </u>
+
+            <u who="#intervistatore">
+                come si stava come stavano i suoi compagni come si sopravviveva <anchor synch="#T-t41"/>dentro quel campo<anchor synch="#T-t42"/>a <placeName ref="TEI-ListPlace.xml#DA">Dachau</placeName>
+
+            </u>
+
+            <u who="#vanzini">
+                <anchor synch="#T-t41"/>ah beh guardi <anchor synch="#T-t42"/> guardi<pause/><del type="repetition">come </del>come diciamo il vitto là era una cosa una cosa proprio che ripugnava perchè <unclear reason="inaudible">ci davano</unclear>al mattino dopo la sveglia che ci svegliavano alle quattro del mattino
+                <pause/>e là si doveva andar fuori che c'erano due pentoloni grandi che dicevano di prendere il the<pause/>si andava fuori no e si <del type="reformulation">io</del>la prima volta non ho potuto neanche prendere niente perchè non ti danno mica un bicchiere un qualcosa di poter bere 
+            </u>
+
+            <u who="#intervistatore">
+                ti arrangiavi
+            </u>
+
+            <u who="#vanzini">
+                eh e allora ho al giorno<unclear reason="inaudible">presso</unclear>che sono andato a lavorare quel giorno che sono andato a lavorare alla stazione di <placeName ref="TEI-ListPlace.xml#MO">Monaco</placeName> e sono andato dove<choice><orig>c'era</orig><reg>c'erano</reg></choice>i rifiuti<kinesic><desc>indica con le mani</desc></kinesic>
+                e ho trovato una scatola di quelle della conserva quelle scatole là allora l'ho pulito un po' col dito<kinesic><desc>gesticola come a far vedere come ha pulito il barattolo</desc></kinesic> un po' che <del type="repetition">era </del>era<del type="truncation">c</del><incident><desc>gli scivola il libro dalle gambe</desc></incident>
+                c'era la muffa dentro no vede<pause/><del type="repetition">in questa</del> in questa scatola e allora <vocal><desc>ehm</desc></vocal>io ho preso al mattino presto ho detto voglio <del type="truncation">v</del>vedere cosa è questa roba perchè era color verde c'era perfino la schiuma verde sopra<pause/>allora sono andato là l'ho presa ho fatto per berla
+                <anchor synch="#T-t43"/>mamma mia <anchor synch="#T-t44"/>
+            
+            </u>
+
+            <u who="#intervistatore">
+                <anchor synch="#T-t43"/> c'eran tanti militari con lei <anchor synch="#T-t44"/>
+            </u>
+
+            <u who="#vanzini">
+                eh
+            </u>
+
+            <u who="#intervistatore">
+                c'erano tanti militari con lei<pause/><anchor synch="#T-t45"/>ricorda <anchor synch="#T-t46"/>
+            </u>
+
+            <u who="#vanzini">
+                <anchor synch="#T-t45"/><vocal><desc>ehm</desc></vocal><anchor synch="#T-t46"/> io<del type="truncation">g</del>guardi<del type="repetition" >che</del>che posso ricordare noi eravamo in tre no ma dentro nel Lager cioè quando mi han preso che mi han portato al campo di lavoro prima a <placeName ref="TEI-ListPlace.xml#I">Ingolstadt</placeName>
+                là si lavorava dove c'era una fabbrica dove facevano i carri armati<pause/>e allora sotto eravamo noi e sopra c'eran le donne russe giovani che facevano le bombe a mano<pause/>vede<pause/>di là no quando che noi abbiamo tentato la fuga perchè la s<del type="correction">fabbrica</del> è stata distrutta da <anchor synch="#T-t47"/> dal bombardamento <anchor synch="#T-t48"/>
+                e allora abbiamo tentato la fuga <del type="repetition">perchè</del><pause/>perchè pensavamo qua non c'è più nessuno e chissà dove mi manderanno chissà no cosa faranno e allora andiamo tentiamo la fuga allora siamo andati dentro abbiamo preso quel che è rimasto del<del type="reformulation">dove</del>c'era le cucine e <unclear reason="inaudible">uno zaino</unclear>
+                <anchor synch="#T-t49"/>e cominciato<anchor synch="#T-t50"/>alla sera a via <del type="reformulation">e</del> allora si seguiva il rumore della strada e un fiumiciattolo che era vicino alla strada vede quelli erano le nostre indicazioni 
+            </u>
+
+            <u who="#intervistatore">
+                <anchor synch="#T-t47"/> dai bombardamenti<anchor synch="#T-t48"/>
+                <anchor synch="#T-t49"/>e via <anchor synch="#T-t50"/>
+            </u>
+
+            <u who="#intervistatore">
+                per cercare di<pause/>
+            </u>
+            
+            <u who="#vanzini">
+                <anchor synch="#T-t51"/>ecco <anchor synch="#T-t52"/>
+            </u>
+
+            <u who="#intervistatore">
+                <anchor synch="#T-t51"/>di andare <anchor synch="#T-t52"/>
+            </u>
+
+            <u who="#vanzini">
+                vede si e questa strada andava fino a <placeName ref="TEI-ListPlace.xml#L">Linz</placeName><pause/>giù <anchor synch="#T-t53"/>tra <anchor synch="#T-t54"/> ai confini tra la <placeName ref="TEI-ListPlace.xml#DE">Germania</placeName><anchor synch="#T-t55"/>e l'<placeName ref="TEI-ListPlace.xml#AT">Austria</placeName><anchor synch="#T-t56"/>
+            </u>
+
+            <u who="#intervistatore">
+               <anchor synch="#T-t53"/>si <anchor synch="#T-t54"/>
+               <anchor synch="#T-t55"/> e l'<placeName ref="TEI-ListPlace.xml#AT">Austria</placeName><anchor synch="#T-t56"/>
+            </u>
+
+            <u who="#vanzini">
+               ecco e quindi noi per 15 giorni si<del type="reformulation">abbiamo</del>fatto questo cammino<pause/>e fin quando che c'era qualcosa nello zaino si mangiava e dopo bisognava mettere qualcosa nello stomaco allora si <choice><orig>prendeva</orig><reg>prendevano</reg></choice> patate crude si lavavano <anchor synch="#T-t57"/>dentro <anchor synch="#T-t58"/>
+               dentro questo coso e si mangiavano crude<pause/>qualche carota
+            </u>
+
+            <u who="#intervistatore">
+                <anchor synch="#T-t57"/> quello che c'era <anchor synch="#T-t58"/> 
+            </u>
+           
+
+            <u who="#intervistatore">
+                dopo l'<date when="09-08">8 <anchor synch="#T-t59"/>settembre</date><anchor synch="#T-t60"/> <kinesic><desc>col dito indica vanzini</desc></kinesic>
+            </u>
+
+            <u who="#vanzini">
+                <anchor synch="#T-t59"/> eh <anchor synch="#T-t60"/> 
+            </u>
+
+            <u who="#intervistatore">
+                dopo la <placeName ref="TEI-ListPlace.xml#GR">Grecia</placeName> dopo questo tratto di prigionia lei riesce a tornare a casa poi una vicenda particolarissima<pause/> la obbliga ad un cambio completamente la riportano via i tedeschi la prendono e c'è un fatto particolare<kinesic><desc>indica col dito</desc></kinesic>
+                c'è quel fatto per cui la sua vita potrebbe essere cambiata perchè c'era il plotone di esecuzione 
+            </u>
+
+            <u who="#vanzini">
+                si<pause/>eh <del type="repetition">là</del>là <del type="repetition">quando</del>c'ero<pause/>là è stato così che noi dopo 15 giorni che si camminava una sera abbiamo visto da lontano sempre che ci sono pianure terreni come una casupola e allora si pensava che dentro là ci fossero dei contadini che ci<choice><orig>possono</orig><reg>potessero</reg></choice> aiutare un po'
+                <anchor synch="#T-t61"/> e siamo andati là <anchor synch="#T-t62"/> invece è venuta fuori una ragazza<pause/>questa qua<pause/>e<pause/>andava a prendere l'acqua fuori e allora io l'ho chiamata prima in tedesco e poi in italiano allora m'ha detto no ma chi siete italiani ho detto si no noi siamo scappati perchè siamo<vocal><desc>ehm</desc></vocal>
+                scappati dalla fabbrica perchè era distrutta allora ha detto aspetta che vado da mio nonno a dirgli di preparare qualcosa di caldo<pause/>e di fatti no<pause/>parlava in italiano no <pause/> <anchor synch="#T-t63"/> e di fatti <anchor synch="#T-t64"/>                
+            </u>
+
+            <u who="#intervistatore">
+                <anchor synch="#T-t61"/> si dei civili certo <anchor synch="#T-t62"/>
+                <anchor synch="#T-t63"/>vi siete<anchor synch="#T-t64"/><pause/>vi siete fidati  
+            </u>
+
+            <u who="#vanzini">
+                eh si fidati e siamo andati là <choice><orig>c'era</orig><reg>c'erano</reg></choice>due della <foreign xml:lang="de">Wehrmacht</foreign><pause/>due militari come siamo entrati col calcio del mitra ci han buttati a terra sulla schiena questa qua era una spia una ragazza spia italiana giovane che lo faceva per i soldi vede allora quando che
+                <vocal><desc>ehm</desc></vocal>lei era là che stava mangiando e bevendo con questi tedeschi dentro questa casupola noi eravamo là vicino al fuoco legati e allora mi guardava ogni tanto e io dicevo <anchor synch="#T-t65"/>perchè parlava <anchor synch="#T-t66"/> <anchor synch="#T-t67"/>parlava anche il milanese <anchor synch="#T-t68"/>
+                io di <placeName ref="TEI-ListPlace.xml#VA">Varese</placeName>lo capivo no<pause/>gli ho detto sei stata brava ho detto però <kinesic><desc>punta il dito</desc></kinesic>vedrai che è il tuo momento e lei mi ha detto a me non mi <del type="truncation">int</del>interessa solo i soldi<kinesic><desc>gesto dei soldi con la mano</desc></kinesic>
+                vede e così <choice><orig>quel</orig><reg>quei</reg></choice>sacrifici che abbiamo<choice><orig>fatti</orig><reg>fatto</reg></choice>per nulla perchè ci ha mandati indietro alla stazione di <placeName ref="TEI-ListPlace.xml#MO">Monaco</placeName><pause/>c'era la
+                <foreign xml:lang="de"><choice><abbr>Gestapo</abbr><expan>Geheime Staatspolizei</expan></choice></foreign> le<foreign xml:lang="de"><choice><abbr>SS</abbr><expan>Schutzstaffel</expan></choice></foreign><pause/>lì borghesi<pause/>ci han preso ci han messo i cosi ai polsi e anche alle
+                <choice><orig>caviglia</orig><reg>caviglie</reg></choice><pause/>e ci han portati a <placeName ref="TEI-ListPlace.xml#BU">Buchenwald</placeName>
+            </u>
+
+            <u who="#intervistatore">
+                <anchor synch="#T-t65"/>perchè ci hai traditi <anchor synch="#T-t66"/>
+                <anchor synch="#T-t67"/> <gap reason="inaudible" extent="2 words"/> <anchor synch="#T-t68"/>
+
+                <unclear reason="inaudible">ed è na</unclear>quel numero <pause/> <anchor synch="#T-t69"/><del type="falseStart">m</del>centoventritremilatrecentoquarantatre<anchor synch="#T-t70"/>faccio fatica a dirlo in italiano <anchor synch="#T-t71"/>chissà in tedesco<anchor synch="#T-t72"/> 
+            </u>
+
+            <u who="#vanzini">
+                <anchor synch="#T-t69"/>si<anchor synch="#T-t70"/>
+                <anchor synch="#T-t71"/>si<anchor synch="#T-t72"/>
+
+                beh<pause/><choice><orig>c'è voluto</orig><reg>ci sono voluti</reg></choice>quasi 15 giorni o di più per impararlo<pause/>perchè dopo io imparavo un numero alla volta<pause/>lo mettevo nella testa perchè è difficile<pause/>fare tutto il numero così<pause/>mille<gap reason="inaudible" extent="1 word"/> e invece se fosse
+                <foreign xml:lang="de">eins zwei drei vier</foreign>fino al 30 così lo sapevo ma i numeri<del type="reformulation">allora</del>leggevo un numero alla volta me lo mettevo nella testa no perchè dopo quando mi chiamavano bisognava presentarsi e se sbagliavi <del type="repetition">erano</del>erano botte<pause/>
+                avevano quei nervini che <anchor synch="#T-t73"/>ogni colpo<anchor synch="#T-t74"/>
+            </u>
+
+
+            <u who="#intervistatore">
+                <anchor synch="#T-t73"/><del type="repetition">come come</del><anchor synch="#T-t74"/> <del type="repetition">come è stato</del>come è stato quell'inverno 
+            </u>
+
+            <u who="#vanzini">
+               oh beh una cosa guardi no<pause/>là ci han dato<del type="reformulation">si camminava</del>con quel vestito di tela solo <del type="truncation">t</del>tela non avevamo niente sotto<pause/>e senza calze con su questi zoccoloni di legno<pause/>vede<pause/>un<choice><orig>barrettino</orig><reg>berrettino</reg></choice>
+               piccolo<kinesic><desc>fa il gesto con le mani per indicare la dimensione del berretto </desc></kinesic>e là si doveva andare conto alle intemperie nevicava pioveva tirava vento e là si doveva<del type="falseStart">c</del>andare al lavoro e battere i denti tutti i giorni perchè si sentiva il fre come aver su 
+               diciamo una cosa una garza è lo stesso e si vedeva la luce di là <del type="repetition">di questa</del>di questa cosa che m'han dato e <del type="truncation">l</del>l'inverno<pause/>là nevica molto <del type="truncation">n</del>nevica <anchor synch="#T-t75"/>e là si doveva<anchor synch="#T-t76"/>
+               per forza <del type="reformulation">non</del>c'era nessuno<pause/>non ti davano neanche un fazzoletto tanto per dire vedi
+
+            </u>
+
+            <u who="#intervistatore">
+                <anchor synch="#T-t75"/>eh si<anchor synch="#T-t76"/>
+                c'è stato un momento in cui naturalmente lei è rimasto profondamente turbato da quello che stava succedendo
+            </u>
+
+            <u who="#vanzini">
+                si <del type="repetition">è</del>è stato quando che lavoravo sui forni crematori<pause/>io sul lato <del type="truncation">n</del>non osservavo bene questo <del type="reformulation">perchè</del> mi aiutava e io aiutavo lui per metter su <del type="repetition">i</del> <anchor synch="#T-t77"/>i cadaveri <anchor synch="#T-t78"/>
+                in due uno davanti e uno di dietro e<pause/>vedo <del type="repetition">questo</del> questo tipo questo francese che lavorava con me<pause/>dopo un po'vedo<pause/>proprio son rimasto là perchè ho visto che gli faceva il segno della croce no a uno a tutti quei poveretti che metteva su prima di buttarli nel forno<pause/>
+                a io son rimasto là<pause/>allora dato che non si <del type="reformulation">non</del> sapevo il francese lui non sapeva tanto <unclear reason="inaudible">l'italiano</unclear>si andava dicendo a segni<pause/>ho detto <anchor synch="#T-t79"/>tu <del type="repetition">co co</del>come mai che <anchor synch="#T-t80"/>
+            </u>
+
+            <u who="#intervistatore">
+                <anchor synch="#T-t77"/>eravate in due si<anchor synch="#T-t78"/>
+                <anchor synch="#T-t79"/>cosa fai fai il segno della croce <anchor synch="#T-t80"/>
+                eh 
+            </u>
+
+            <u who="#vanzini">
+                ha fatto <anchor synch="#T-t81"/><del type="repetition">ha</del>ha detto <anchor synch="#T-t82"/> <vocal><desc>ehm</desc></vocal>non <del type="truncation">pa</del>parroco ha detto niente parroco e io come dire <del type="repetition">questo</del>questo poveretto no  
+            </u>            
+
+            <u who="#intervistatore">
+                <anchor synch="#T-t81"/>a degli ebrei morti <anchor synch="#T-t82"/>
+            </u>
+            
+            <u who="#vanzini">
+                <anchor synch="#T-t83"/> non ha nessuno <anchor synch="#T-t84"/> è anche giusto no che gli faccio come il segno come benedirlo e gli faccio come il segno della croce no prima di buttarlo in questo inferno<pause/>mi ricordo che quel giorno là c'erano venti centimetri di neve nevicava<pause/>era una domenica<pause/>
+                e allora arriva un carro perchè alla domenica e al sabato mandavano in giro i carri trainati da noi poveretti che non avevamo neanche la forza<pause/>con su magari 20 30 40 morti<pause/>e questo carro è passato dall'infermeria per ultimo perchè veniva verso i forni e ha caricato 5 o 6 persone<pause/>
+                e io sono andato fuori con questo francese che mi aiutava e ho preso i primi di dietro e quando che ho preso questo qua mi sembrava ancora come tiepido mi sembrava non proprio quel freddo <anchor synch="#T-t85"/>di morte no<anchor synch="#T-t86"/> <pause/>e allora ho <del type="truncation">de</del> 
+                Madonna l'han portato dentro io e l'altro <choice><orig>l'ho</orig><reg>l'abbiamo</reg></choice> messo sulla grata e fuori c'era la neve fresca mi si è <choice><orig>attaccato</orig><reg>attaccata</reg></choice>la neve sugli zoccoloni di legno e come ho messo questo corpo<pause/>no<pause/>
+                <vocal><desc>ehm</desc></vocal>io sono scivolato e sono andato <del type="repetition">con la</del>con la testa quasi sul corpo no<pause/>e sentivo ho detto ma questo qua è ancora vivo sentivo<del type="truncation">gl</del>gli ultimi battiti del cuore sentivo no e io son rimasto là ho detto
+                Madonna ma questo qua poteva vivere ancora e invece gli facevano le punture e li mandavano al Creatore<unclear reason="inaudible" >ver</unclear>
+
+            </u>
+
+            <u who="#intervistatore">
+                <anchor synch="#T-t83"/>un grande segno di pietà <anchor synch="#T-t84"/>
+                <anchor synch="#T-t85"/>della morte <anchor synch="#T-t86"/>
+            </u>
+
+            <u who="#intervistatore">
+                quante volte si è svegliato <anchor synch="#T-t87"/>di notte <anchor synch="#T-t88"/><pause/> <anchor synch="#T-t89"/> di notte quando è tornato a casa <anchor synch="#T-t90"/><pause/> <anchor synch="#T-t91"/>ricordando quei giorni<anchor synch="#T-t92"/>
+
+            </u>
+
+            <u who="#vanzini">
+                <anchor synch="#T-t87"/>ah beh <anchor synch="#T-t88"/>
+                <anchor synch="#T-t89"/>ah <del type="repetition">si</del> si <anchor synch="#T-t90"/>
+                <anchor synch="#T-t91"/><del type="repetition">le</del>le <anchor synch="#T-t92"/> prime notti<pause/>cioè le <del type="reformulation">proprio</del>quando mi son sposato anche no io avevo sempre una cosa dentro di me e durante la notte mi sembrava di vedere le fiamme davanti come
+                <del type="truncation">d</del>dei forni<pause/>ogni tanto mi svegliavo sembrava che uno mi battesse<pause/>no<pause/> e cercavo di difendermi<pause/>e tante volte magari facevo così<kinesic><desc>allarga il braccio</desc></kinesic>per mandarlo via e gli davo gli schiaffi <del type="repetition">sulla </del> 
+                <anchor synch="#T-t93"/>sulla<anchor synch="#T-t94"/>sulla faccia alla moglie no e lei si svegliava mi diceva che cosa hai <del type="repetition">no</del> no e io ho detto guarda ho incubi così no e lei <del type="repetition">ma</del>ma fatti vedere dal medico m'ha detto no che c'è qualcosa che non va 
+            </u>
+
+            <u who="#intervistatore">
+                <anchor synch="#T-t93"/>alla moglie <anchor synch="#T-t94"/>
+            </u>
+
+            <u who="#intervistatore">
+                si vedeva in <del type="reformulation">nel</del>campo a <placeName ref="TEI-ListPlace.xml#DA">Dachau</placeName>si vedevano arrivare i treni <anchor synch="#T-t95"/>i convogli<anchor synch="#T-t96"/> i camion 
+            </u>
+
+            <u who="#vanzini">
+                <anchor synch="#T-t95"/>si<anchor synch="#T-t96"/> entravano<del type="reformulation">una volta</del> era di domenica e mi han messo dato che non si lavorava<pause/>e mi han messo a pulire<pause/>cioè <del type="repetition">a</del>a mettere un po' le siepi quelle siepi basse vicino alla cucina <pause/>che volevano che tagliavo tutti i rami che venivano
+                <del type="correction">più</del> in fuori<pause/>e allora vedo che si apre il cancello e entra il treno <pause/>ho detto mamma mia chissà chi sono pensavo che ci fosse qualche italiano o magari gente <del type="repetition">che</del>che facevano le retate che li portavano via<del type="reformulation">invece</del> erano tutti ebrei perchè ho visto
+                scendere donne bambini piccolini in braccio no<vocal><desc>ehm</desc></vocal>ragazzi di 3 4 5 anni<pause/>che erano vicino alla sua mamma e<pause/>hanno preso<pause/>han levato tutti i bambini a forza<pause/>li strappavano via <del type="truncation">da</del>dagli uo<del type="reformulation">dai</del>
+                suoi papà dai cosi<pause/>e lì li caricavano sul treno ancora nei vagoni <pause/> e le donne e tutti e quindi han lasciato solo gli uomini là<pause/>e ho detto ma come mai e il treno è partito ho detto ma dove vanno allora i russi che sapevano tutto perchè lavoravano nelle cucine<pause/>vede loro 
+            </u>
+
+            <u who="#intervistatore">
+               i russi  
+            </u>
+        
+            <u who="#vanzini">
+                i russi<pause/>c'era qualche cuoco così ma avevano un po' di soggezione dei russi e li mettevano a far certi lavori un po' meno pesanti<pause/>e allora un russo ha detto<pause/><vocal><desc>ehm</desc></vocal>ho detto dove vanno no<pause/>m'ha detto vanno ad <placeName ref="TEI-ListPlace.xml#Au">Auschwitz</placeName><pause/>
+                là è il concentramento dei <unclear reason="inaudible">ribei</unclear><del type="truncation">de</del><anchor synch="#T-t97"/> degli ebrei <anchor synch="#T-t98"/>
+            </u>
+            
+            <u who="#intervistatore">
+                <anchor synch="#T-t97"/>degli ebrei<anchor synch="#T-t98"/>
+            </u>
+
+            <u who="#vanzini">
+                e allora<pause/>ho detto mamma mia e vedo questi uomini che gli danno i tedeschi gli danno pezzi di pane no<pause/>cose come formaggio e ho detto a noi ci fanno morire e qua come mai che c'eran<del type="reformulation">e</del>poi vedo che entra <del type="repetition">un camion</del>un camion <del type="truncation">del</del>della
+                <foreign xml:lang="de">Wehrmacht</foreign>no<pause/>militare<pause/>e si gira e si mette dalla parte di dietro <anchor synch="#T-t99"/>dove c'era<anchor synch="#T-t100"/>
+                <del type="reformulation">verso</del>questi<pause/>aprono tirano su il telone <pause/>e là c'erano due mitragliatrici e ho cominciato a sentir sparare <pause/><choice><orig>tutta</orig><reg>tutti</reg></choice>quei poveretti no massacrati e dopo c'era chi si lamentava che era ferito che non e allora cosa faceva passava un comandante là 
+                <anchor synch="#T-t101"/>un Kapo<anchor synch="#T-t102"/> e con la pistola gli <anchor synch="#T-t103"/>sparava in testa <anchor synch="#T-t104"/>
+            </u>
+
+            <u who="#intervistatore">
+                <anchor synch="#T-t99"/>del cassone si<anchor synch="#T-t100"/>
+                <anchor synch="#T-t101"/> un ufficiale<anchor synch="#T-t102"/>
+                <anchor synch="#T-t103"/> c'è stato un momento<anchor synch="#T-t104"/>in cui ha detto di qua non esco vivo
+            </u>
+
+           
+            <u who="#vanzini">
+                eh
+            </u>
+
+            <u who="#intervistatore">
+                c'è stato un momento in cui ha detto <anchor synch="#T-t105"/>di qua non esco vivo<anchor synch="#T-t106"/>
+            </u>
+
+            <u who="#vanzini">
+                <anchor synch="#T-t105"/>ah<anchor synch="#T-t106"/> ah beh guardi<pause/>appena quando che ho cominciato a vedere che era un mese o due che ero dentro e ho cominciato a sentire il declino della vita proprio no mangiare quasi niente tutta porcheria <del type="truncation">n</del>non aveva neanche il sale niente proprio ci davano
+                come l'acqua no con dentro tutta della roba che non sapevo neanche cosa era che faceva ribrezzo a mangiarla <pause/>e un <del type="reformulation">tante</del> volte <del type="repetition">era</del>era acqua tante volte era dura <anchor synch="#T-t107"/>che bisogna spaccarla<anchor synch="#T-t108"/> 
+                <pause/>vede<pause/>e là ho detto qua no è impossibile che vivo ancora e allora ho detto no signore fammi la grazia ho detto fammi vedere ancora mio padre e mia mamma <del type="repetition">si si si </del><del type="reformulation">ci</del> si aggrappava a un qualcuno a qualcosa che nella mente ci venivano e allora chi era<pause/>era Dio   
+                <anchor synch="#T-t109"/>oppure<anchor synch="#T-t110"/>la mamma<pause/><unclear reason="inaudible">eh perchè</unclear>la mamma era sempre quella che per prima si nominava<pause/>vede<pause/><del type="repetition">e</del>e io è stato il giorno di Natale <pause/><vocal><desc>ehm</desc></vocal>ho detto c'era la messa italiana dei padri dei preti italiani
+                che sono stati deportati<pause/>loro avevano un'altra mansione<pause/>e allora sono andato e c'era quella italiana quella ebraica e quella protestante<pause/>allora ho detto vado a sentirmi la messa <pause/>e al comandante<vocal><desc>ehm</desc></vocal><del type="truncation">v</del>verso le 10 e così prima che iniziasse la messa ha detto no oggi
+                ci sarà un pranzo speciale<pause/>cosa davano<pause/>davano una patata più che altro <anchor synch="#T-t111"/>che non avevano mai dato<anchor synch="#T-t112"/>perchè han sempre dato porcheria e allora ho detto non mi interessa vado a sentire la messa mi sembrava che sentendo la messa un<del type="repetition">mi</del>mi diciamo
+                <anchor synch="#T-t113"/>mi portavo <anchor synch="#T-t114"/>
+            </u>
+
+            <u who="#intervistatore">
+                <anchor synch="#T-t107"/>buttavan dentro di tutto si <anchor synch="#T-t108"/>
+                <anchor synch="#T-t109"/>chissà <anchor synch="#T-t110"/>
+                <anchor synch="#T-t111"/><vocal><desc>verso di chi sta seguendo il discorso</desc></vocal><anchor synch="#T-t112"/>
+                <anchor synch="#T-t113"/>si ricaricava <anchor synch="#T-t114"/>
+            </u> 
+
+            <u who="#vanzini">
+                eh mi scaricavo un po'<pause/>e allora sono andato dentro e io <del type="reformulation">c'era</del> un disco che si sentivano i canti natalizi no <choice><orig>italiana</orig><reg>italiani</reg></choice>e ogni tanto guardavo da parte e mi sembrava che avevo degli amici o mio padre mio fratello 
+                <anchor synch="#T-t115"/> <vocal><desc>parole che non si capiscono</desc></vocal> <anchor synch="#T-t116"/>
+            </u>
+
+            <u who="#intervistatore">
+                <anchor synch="#T-t115"/>quante volte si è chiesto<anchor synch="#T-t116"/>
+            </u>
+
+            <u who="#vanzini">
+                eh 
+            </u>
+
+            <u who="#intervistatore">
+                quanto volte si è chiesto io ce l'ho fatta come mai proprio io rispetto a tanti che magari non ce l'hanno fatta <anchor synch="#T-t117"/>si è fatto questa domanda <anchor synch="#T-t118"/>
+            </u>
+
+            <u who="#vanzini">
+                <anchor synch="#T-t117"/>eh si no <anchor synch="#T-t118"/> perchè vede in quel momento ho anche detto signore se tu veramente ci sei e sei padre di tutti aiuta questo tuo figlio <pause/>fammi ritornare fammi rivedere ancora la mia famiglia <choice><orig>erano</orig><reg>erano</reg></choice>quattro anni che non sapevo niente
+                <pause/>vede io sono andato col pensiero e sono venuto fuori e cosa ho preso <pause/>ho preso tante di quelle vergate che non mi interessava a me mi interessava che un qualcuno mi proteggesse e allora questo qua mi ha chiamato non son presentato <pause/>e mi ha aspettato che venivo fuori un comandante<pause/>
+                e mi ha dato tante vergate poi mi ha messo dentro a un bunker<pause/>un bunker di ferro senza niente nudo come ero un freddo che io <vocal><desc>mmm</desc></vocal>tu <del type="truncation">pens</del> pensi che camminavo <anchor synch="#T-t119"/>un po' a stento <anchor synch="#T-t120"/>           
+                <anchor synch="#T-t121"/>ma camminavo per non congelarmi no <anchor synch="#T-t122"/>
+            </u>
+
+
+            <u who="#intervistatore">
+                <anchor synch="#T-t119"/>eh ci credo <anchor synch="#T-t120"/>
+                <anchor synch="#T-t121"/>per non congelarsi <anchor synch="#T-t122"/>
+            </u>
+        
+
+            <u who="#intervistatore">
+                <pause/>è tornato<pause/>
+            </u>
+
+            <u who="#vanzini">
+                si
+            </u>
+
+            <u who="#intervistatore">
+                a <placeName ref="TEI-ListPlace.xml#DA">Dachau</placeName>
+            </u>
+
+            <u who="#vanzini">
+                si sono tornato con mio <rs type="person">figlio</rs> che siamo andati a fare<del type="reformulation">lui</del>compiva i 18 anni e allora m'ha portato a fare un giro<pause/>lui era in <placeName ref="TEI-ListPlace.xml#CH">Svizzera</placeName> sul <placeName ref="TEI-ListPlace.xml#LC">Lago di Costanza</placeName> e allora ha detto 
+                <anchor synch="#T-t123"/>dato che <anchor synch="#T-t124"/>dato che siamo vicini all'<placeName ref="TEI-ListPlace.xml#AT">Austria</placeName> andiamo fino a <placeName ref="TEI-ListPlace.xml#IN">Innsbruck</placeName>e poi andiamo su dove c'è fino a <placeName ref="TEI-ListPlace.xml#MO">Monaco di Baviera
+                </placeName><pause/>ho detto Madonna <placeName ref="TEI-ListPlace.xml#MO">Monaco</placeName><pause/>a pochi chilometri c'è <placeName ref="TEI-ListPlace.xml#DA">Dachau</placeName> no<pause/>e allora ho detto andiamo fino a <placeName ref="TEI-ListPlace.xml#DA">Dachau</placeName> <vocal><desc>ride</desc></vocal>
+                lui mi ha detto ma cosa c'è a <placeName ref="TEI-ListPlace.xml#DA">Dachau</placeName><pause/>ho detto io so<del type="repetition">che</del>che c'è qualcosa che poi dopo vedrete no<pause/>allora lui ecco curioso è venuto andiamo siamo andati allora non c'era il cancello c'era dei come un'entrata no 
+                <anchor synch="#T-t125"/>dei pannelli <anchor synch="#T-t126"/> che si entrava si girava e <choice><orig>c'era</orig><reg>c'erano</reg></choice>tutte le foto <anchor synch="#T-t127"/>su questi <anchor synch="#T-t128"/>
+            </u>
+
+            <u who="#intervistatore">
+                <anchor synch="#T-t123"/><kinesic><desc>gesto con la mano che indica il fatto di andare</desc></kinesic>andiamo a <placeName ref="TEI-ListPlace.xml#MO">Monaco</placeName><anchor synch="#T-t124"/>
+                <anchor synch="#T-t125"/>si<pause/><del type="repetition">si</del>si <anchor synch="#T-t126"/>
+                <anchor synch="#T-t127"/>si <anchor synch="#T-t128"/>
+                ha cominciato a dire qualcosa lì a suo figlio <pause/> <anchor synch="#T-t129"/>di quella storia <anchor synch="#T-t130"/>
+            </u>
+            
+            <u who="#vanzini">
+                <anchor synch="#T-t129"/>no <vocal><desc>ehm</desc></vocal><anchor synch="#T-t130"/>
+            </u>
+
+            <u who="#intervistatore">
+                o è arrivata dopo 
+            </u>
+
+            <u who="#vanzini">
+                <del type="repetition">no no</del>no<pause/>non ne ho mai parlato io con mio figlio io di queste cose mai <pause/>siamo andati dentro io mi son fermato dove c'era la baracca perchè li han <del type="repetition">tutti</del>tutti bruciati quelle baracche<anchor synch="#T-t131"/>ma i numeri ci sono <anchor synch="#T-t132"/>
+                <anchor synch="#T-t133"/>e anche i segni <anchor synch="#T-t134"/>
+            </u>
+
+            <u who="#intervistatore">
+                <anchor synch="#T-t131"/>però <anchor synch="#T-t132"/>
+                <anchor synch="#T-t133"/>se la ricorda bene <anchor synch="#T-t134"/> 
+            </u> 
+
+            <u who="#vanzini">
+                ecco<pause/>e là no <del type="repetition">ho</del>ho <del type="reformulation">son</del>fermato a guardare e ho detto quanto ho sofferto qua dentro tra me e me no e lui mi diceva andiamo cosa fai là ho detto <del type="repetition">vengo</del>vengo di fatti loro
+                andavano verso la chiesa protestante per vedere che era proprio in faccia<kinesic><desc>fa il gesto di trovarsela di fronte</desc></kinesic> e io ho cercato di andare<kinesic><desc>segno di girare per andare nella direzione dei forni</desc></kinesic> dove c'erano i forni 
+                che eran di dietro e allora <vocal><desc>ride</desc></vocal>loro dicevano vieni a vedere qua no ma non mi interessa ho detto vado di qua io<pause/> allora fa<pause/>allora aspetti che veniamo anche noi ho detto andate dopo no<pause/>e infatti son venuti là
+                <vocal><desc>ride</desc></vocal> e io li ho portati apriamo la porta dei forni <del type="repetition">ho</del>ho detto ma cosa<pause/>cosa facevano qua cosa bruciavano 
+            </u>
+
+            <u who="#intervistatore">
+                lei lo sapeva bene
+            </u>
+
+            <u who="#vanzini">
+                eh e ho detto mah vedi questi eran lì ma cosa son forni si dico son forni ma son mica forni per fare il pane <anchor synch="#T-t135"/>ho detto no <anchor synch="#T-t136"/>
+            </u>
+
+            <u who="#intervistatore">
+                <anchor synch="#T-t135"/>sono forni diversi<anchor synch="#T-t136"/>
+            </u>
+
+            <u who="#vanzini">
+                e allora siccome si <gap reason="inaudible" extent="2 words"/> <del type="truncation">pen</del>pensi che c'era ancora un po' di quell'odore che si sentiva c'ho una minima parte 
+            </u>
+
+            <u who="#intervistatore">
+                nonostante passati <anchor synch="#T-t137"/>gli anni e tutto<anchor synch="#T-t138"/>
+            </u>
+
+            <u who="#vanzini">              
+                <anchor synch="#T-t137"/>eh gli anni<anchor synch="#T-t138"/>
+                <anchor synch="#T-t139"/>veramente e dopo <anchor synch="#T-t140"/>
+            </u>
+
+            <u who="#intervistatore">
+                <anchor synch="#T-t139"/>era impregnato il muro di quella tragedia<anchor synch="#T-t140"/> 
+            </u>
+            
+            <u who="#vanzini">              
+                si dove <choice><orig>c'era</orig><reg>c'erano</reg></choice> <choice><orig>tutta</orig><reg>tutte</reg></choice> le ossa che si buttava là han fatto <del type="repetition">un monumento</del> un monumento no al <del type="reformulation">che</del> <gap reason="inaudible" extent="4 words"/>c'è un prigioniero
+                <anchor synch="#T-t141"/>vestito come era<anchor synch="#T-t142"/>
+            </u>
+
+            <u who="#intervistatore">
+                <anchor synch="#T-t141"/>ma <anchor synch="#T-t142"/> in pelle e ossa è tornato <anchor synch="#T-t143"/>anche lei a casa <anchor synch="#T-t144"/>
+            </u>
+
+            <u who="#vanzini">
+                <anchor synch="#T-t142"/>eh si <anchor synch="#T-t143"/>
+                <anchor synch="#T-t145"/>eh si <anchor synch="#T-t146"/>
+            </u>
+
+            <u who="#intervistatore">
+                <anchor synch="#T-t145"/>la mamma <anchor synch="#T-t146"/>
+                cosa ha detto quando l'ha vista 
+            </u>
+
+            <u who="#vanzini">
+                ah beh non mi conosceva più<pause/>non mi riconosceva più m'ha detto 
+            </u>
+            
+            <u who="#intervistatore">
+                <anchor synch="#T-t147"/>quel giovanotto <anchor synch="#T-t148"/>
+            </u>
+
+            <u who="#vanzini">
+                <anchor synch="#T-t147"/> <del type="repetition">eh</del>eh si <anchor synch="#T-t148"/>
+            </u>
+
+            <u who="#intervistatore">
+                di 86 kg <pause/>ottanta chili e passa no 
+            </u>
+
+            <u who="#vanzini">
+                si si si 
+            </u>
+
+            <u who="#intervistatore">
+                era ridotto a <anchor synch="#T-t149"/>30 kg <anchor synch="#T-t150"/>
+            </u>
+
+            <u who="#vanzini">
+                <anchor synch="#T-t149"/><vocal><desc>ehm</desc></vocal><anchor synch="#T-t150"/> m'ha pesato mio zio ero 29 kg e 300 grammi <pause/>pensate neanche 30 kg quindi io ho lasciato tutta la mia gioventù dentro là e mia <del type="reformulation">anche</del> la mia carne<pause/>
+                e quindi io sono arrivato a casa mia mamma è venuta là e non mi conosceva <pause/>e allora mio padre ha detto ma guarda che è tuo figlio vai ad abbracciarlo no<pause/>e lei a stento perchè diceva ma io non lo conosco no e lui m'ha detto ma guarda che è Enrico tuo figlio no
+                allora si è messa un po' di coraggio è venuta là quando come mi ha visto no è stata una cosa <pause/><gap reason="inaudible" extent="1 word"/> un abbraccio e avevo ancora quel pezzo di pane di quella donna che io ho sempre avuto nel cuore 
+            </u>
+
+            <u who="#intervistatore">
+                ecco mi racconta questo episodio qua perchè io <del type="repetition">quando</del>quando mi ha raccontato prima di entrare in registrazione questo episodio <anchor synch="#T-t151"/>io ho pensato<anchor synch="#T-t152"/> a padre Cristoforo ai <title>Promessi Sposi</title> 
+                <anchor synch="#T-t153"/>che portava <anchor synch="#T-t154"/> nella bisaccia <anchor synch="#T-t155"/>un pezzo di pane <anchor synch="#T-t156"/>
+            </u>
+            
+            <u who="#vanzini">
+                <anchor synch="#T-t151"/>si<anchor synch="#T-t152"/>  
+                <anchor synch="#T-t153"/>eh<anchor synch="#T-t154"/>
+                <anchor synch="#T-t155"/>un pezzo di pane <anchor synch="#T-t156"/>
+            </u>
+
+            <u who="#intervistatore">
+                indurito ormai dal tempo 
+            </u>
+
+            <u who="#vanzini">
+                si 
+            </u>
+
+            <u who="#intervistatore">
+               <anchor synch="#T-t157"/>però <anchor synch="#T-t158"/> che aveva un grande significato 
+            </u>
+
+            <u who="#vanzini">
+                <anchor synch="#T-t157"/>si <anchor synch="#T-t158"/>
+            </u>
+
+            <u who="#intervistatore">
+                è successo anche a lei 
+            </u>
+
+            <u who="#vanzini">
+                si perchè è stato <vocal><desc>ehm</desc></vocal>proprio i giorni di <date when="1945-01">gennaio del<vocal><desc>ehm</desc></vocal>del 45</date> no quindi era quasi diciamo alle porte gli americani<pause/>e allora si vedeva si<del type="reformulation">cioè</del> un altro comportamento delle guardie che erano dentro non si vedevano quasi più ce n'era 
+                qualcuno che era costretto a star là o qualcuno che dopo magari ha anche combattuto dopo con gli americani no e quindi questi qua no mi <del type="reformulation">ci</del> hanno chiamato fuori e si <del type="reformulation">ci</del> hanno incolonnato una quindicina si andava in una fattoria
+                vicino che una fattoria che là si prendeva si mangiava un pezzo di pane un po' <del type="repetition">di</del> di patata calda  
+            </u>
+
+            <u who="#intervistatore">
+                si<pause/>vi hanno portato comunque a lavorare 
+            </u>
+
+            <u who="#vanzini">
+                a lavorare<pause/>e quindi io non son mai stato nel tempo che son stato <unclear reason="inaudible">lì</unclear>ho sempre fatto lavori pesanti e allora ci incolonniamo per andare e vado fuori di questo cancello dopo ho fatto 20 metri
+                e vedo che c'era una donna che poverina cercava di correre un po' di più di noi <del type="repetition">per</del>per arrivarci no<pause/>e aveva il <del type="reformulation"><anchor synch="#T-t159"/>quei</del> <foreign xml:lang="fr">foulard</foreign> in testa <anchor synch="#T-t160"/>
+            </u>
+
+            <u who="#intervistatore">
+                <anchor synch="#T-t159"/>si <anchor synch="#T-t160"/>
+            </u>
+
+            <u who="#vanzini">
+                quelle gonne lunghe un po' larghe era una contadina guardando così<pause/>e allora io ho detto ma cosa vuole <del type="repetition">questa</del>questa donna ho detto bah speriamo <del type="reformulation">perchè</del>avevo paura di quello che ci accompagnava<pause/>
+                e allora dopo un po' che mi seguiva <del type="repetition">mi</del>mi ha detto <foreign xml:lang="fr">francais</foreign><foreign xml:lang="de">nein</foreign>no ho detto non son francese <foreign xml:lang="de">italian</foreign><foreign xml:lang="de">ja</foreign>
+                <foreign xml:lang="de">gut essen essen</foreign>mette dentro la mano in queste gonne 
+            </u>
+
+            <u who="#intervistatore">
+                <anchor synch="#T-t161"/>si tasche enormi <anchor synch="#T-t162"/>
+            </u>
+
+            <u who="#vanzini">
+                <anchor synch="#T-t161"/>e mi tira fuori <anchor synch="#T-t162"/> un pezzo di <anchor synch="#T-t163"/>pane<anchor synch="#T-t164"/> nero <pause/>allora <del type="repetition">m'ha detto</del> m'ha detto no <foreign xml:lang="de">brot</foreign>pane <foreign xml:lang="de">brot gut essen</foreign>
+                dice è pane buono da mangiare no<pause/>e allora io dicevo <del type="repetition"><foreign xml:lang="de">nein</foreign></del><foreign xml:lang="de">nein</foreign>perchè avevo paura <anchor synch="#T-t165"/> <gap reason="inaudible" extent="3 words"/> <anchor synch="#T-t166"/>
+            </u>
+
+            <u who="#intervistatore">
+                <anchor synch="#T-t163"/>pane <anchor synch="#T-t164"/>
+                <anchor synch="#T-t165"/>terrorizzato dalla guardia <anchor synch="#T-t166"/>
+            </u>
+
+            <u who="#vanzini">
+                eh dalla guardia e allora lei no non ne ha voluto sapere mi ha allungato la mano e io l'ho preso perchè avevo paura <del type="truncation">del</del>dell'altro là e l'ho messo sotto al berretto perchè non avevamo mica nè tasche nè niente 
+                dove lo metto<pause/>lo metto sul berretto <vocal><desc>ehm</desc></vocal>l'ho messo sul berretto ho detto speriamo che non si accorga perchè lui questo qua no quel mentre che lei ritraeva la mano questo qua ha sparato
+                <pause/>ho sentito il proiettile vicino ai piedi no<pause/> e vedo questa poveretta che casca e va giù che c'era un po' <del type="repetition">di</del>di diciamo di dislivello della strada io son rimasto là <anchor synch="#T-t167"/>non avevo neanche più<anchor synch="#T-t168"/>
+                il coraggio di andare avanti no<pause/>e allora questa qua è venuto là e ha detto <anchor synch="#T-t169"/> <foreign xml:lang="de" ><gap reason="inaudible" extent="1 word"/> </foreign> <gap reason="inaudible" extent="1 word"/> <anchor synch="#T-t170"/>
+
+            </u>
+
+            <u who="#intervistatore">
+                <anchor synch="#T-t167"/>gli ha sparato <anchor synch="#T-t168"/>
+                <anchor synch="#T-t169"/>l'ha incitata ad andare <anchor synch="#T-t170"/>
+            </u> 
+
+    
+            <u who="#vanzini">
+                vai avanti no<pause/>m'ha puntato il mitra sotto al mento no 
+            </u>
+
+            <u who="#intervistatore">
+               e che fine ha fatto quel pezzo di pane 
+            </u>
+
+            <u who="#vanzini">
+                eh
+            </u>
+
+            <u who="#intervistatore">
+               che fine ha fatto 
+            </u>
+
+            <u who="#vanzini">
+                chi 
+            </u>
+
+            <u who="#intervistatore">
+               quel pezzo di pane 
+            </u>
+
+            <u who="#vanzini">
+                io <del type="repetition">no</del> no l'ho portato a casa non l'ho mica mangiato ho pianto tutto il giorno sono andato alla fattoria volevano darmi qualcosa io ho rifiutato <anchor synch="#T-t171"/><vocal><desc>ehm</desc></vocal><anchor synch="#T-t172"/>
+                si perchè ho detto <del type="reformulation">mi</del> sembrava come avere una colpa io l'ho avvertita le ho anche detto di no ma lei poverina me l'ha dato mi ha visto proprio in condizioni così pensava che questo pezzo di pane 
+                
+                <anchor synch="#T-t173"/>mi tirava su un po' <anchor synch="#T-t174"/>
+            </u>
+
+            <u who="#intervistatore">
+                <anchor synch="#T-t171"/>pensando a quella donna <anchor synch="#T-t172"/>
+
+                <anchor synch="#T-t173"/>certo<anchor synch="#T-t174"/>
+            </u>
+
+            <u who="#vanzini">
+                e invece io l'ho preso e l'ho conservato anche quando che c'erano gli americani che m'han vestito l'ho messo dentro <del type="repetition">al</del> al giubbetto e l'ho portato a casa 
+                e quindi quando che mia mamma è venuta là che ci siamo abbracciati ho detto mamma io piango dalla contentezza che son qua con te però piango anche mi viene in mente una cosa 
+                <anchor synch="#T-t175"/>m'ha detto cosa <anchor synch="#T-t176"/>
+            </u>
+
+
+            <u who="#intervistatore">
+                <anchor synch="#T-t175"/>quella donna <anchor synch="#T-t176"/>
+            </u>
+
+            <u who="#vanzini">
+                m'ha detto no vedi questo pezzo di pane questo pezzo di pane una <rs type="person">donna</rs> di 80 anni ha perso la vita per darmelo per sostanziarmi un po' e lei s'è messa a piangere ha detto no dammelo che io vado in chiesa e lo dono a Dio<pause/>m'ha detto così
+                <unclear reason="inaudible">oh</unclear>e io sono stato proprio <vocal><desc>ehm</desc></vocal>non sapevo ho detto Signore ti ringrazio che mi hai dato la vita<pause/>vede<pause/>
+                e ho trovato ancora il mio papà e mia mamma che non speravo più vede 
+            </u>
+
+            <u who="#intervistatore">
+                quando si alza la mattina in giornate come questa <pause/>e con l'amico <persName ref="TEI-ListPerson.xml#RB">Roberto Brumat</persName><pause/>va in qualche scuola a parlare <anchor synch="#T-t177"/>e si mette quelle medaglie <anchor synch="#T-t178"/>
+                <anchor synch="#T-t179"/>cosa pensa <anchor synch="#T-t180"/><pause/> <anchor synch="#T-t181"/>quando infila quella medaglia <anchor synch="#T-t182"/> che ha lì al petto
+            </u>
+
+            <u who="#vanzini">
+                <anchor synch="#T-t177"/> si <anchor synch="#T-t178"/>
+                <anchor synch="#T-t179"/>si<anchor synch="#T-t180"/>
+                <anchor synch="#T-t181"/>si perchè<anchor synch="#T-t182"/>
+            </u>
+        
+            <u who="#vanzini">
+                si questa qua mi è stata donata proprio dal <persName ref="TEI-ListPerson.xml#GN">Presidente della Repubblica</persName> era il <date when="2013-01-29">29 di gennaio dell'anno scorso</date><pause/>allora mi ha dato la mano mi ha dato la medaglia e ha detto portala sempre quando
+                che vai nelle scuole che guardi i bambini eh questo qua è una cosa che <del type="repetition">ti</del>ti fa ricordare tante cose va bene <persName ref="TEI-ListPerson.xml#GN">Presidente</persName><vocal><desc>ehm</desc></vocal>
+                porta sempre diciamo il mi ha detto porta sempre la tua testimonianza che sappiano cosa vuol dire la vita cosa vuol dire sacrifici
+                
+            </u>
+
+            <u who="#intervistatore">
+                a chi la dedica idealmente quella medaglia forse un pezzettino a quella donna 
+            </u>
+
+            <u who="#vanzini">
+                veramente <anchor synch="#T-t183"/>questo si guardi <anchor synch="#T-t184"/>metà della mia riconoscenza la devo a questa poveretta che ha perso la vita veramente<pause/>questo è il fatto 
+            </u>
+
+            <u who="#intervistatore">
+               <anchor synch="#T-t183"/>forse un pezzettino a quella donna <anchor synch="#T-t184"/>
+            </u>
+
+            <u who="#intervistatore">
+                grazie Enrico 
+            </u>
+
+            <u who="#vanzini">
+                prego 
+            </u>
+
+            <u who="#intervistatore">
+                <anchor synch="#T-t185"/>grazie <anchor synch="#T-t186"/>
+            </u>
+
+            <u who="#vanzini">
+                <anchor synch="#T-t185"/>io son contento<anchor synch="#T-t186"/> di essere qua e son contento di collaborare di dire ciò che io ho patito ho sofferto tanto dentro là ho pianto tanto vede e queste sofferenze io le porto in queste scuole 
+                che i bambini sa <del type="reformulation">i</del> ragazzi sappiano cosa vuol dire la guerra cosa vuol dire le sofferenze cosa vuol dire i patimenti e loro mi ascoltano<pause/>veramente
+            </u>
+        
+        
+        
+        </body>
+
+        <back></back>
+
+    </text>
+
+
+</TEI>
