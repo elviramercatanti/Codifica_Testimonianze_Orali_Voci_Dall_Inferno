@@ -1,0 +1,1080 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+  
+ 
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+
+                <title>
+                    <!-- Insert title for this digital text -->
+                </title>
+
+            </titleStmt>
+
+            <publicationStmt>
+                <p>
+                    <!-- Insert information about the publication of this digital text -->
+                </p>
+
+            </publicationStmt>
+
+            <sourceDesc>
+                <p>
+                    <!-- Insert a bibliographic description of the source for this digital text -->
+                </p>
+
+                <listPerson>
+                        <head>Lista persone</head>
+
+                        <!--Samuel Modiano-->
+                        <person xml:id="MODIANO">   
+                            
+                                <persName>
+                                    <ref target="https://it.wikipedia.org/wiki/Sami_Modiano http://digital-library.cdec.it/cdec-web/persone/detail/person-5676/modiano-samuele.html"/>
+                                    <foreName>Samuele</foreName>
+                                    <surname>Modiano</surname>
+                                    <addName type="alias">Sami</addName>
+                                    <roleName type="honorific">Cavaliere di gran croce dell'Ordine al merito della Repubblica italiana</roleName>
+                                    <roleName type="honorific">Croce al Merito di I Classe dell'Ordine al merito di Germania</roleName>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1930-07-18" cert="high">18 luglio 1930</date>
+                                    <placeName ref="TEI-ListPlace#Rodi">
+                                        <settlement type="island">Rodi</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </birth>
+                        </person>
+
+
+                        <!--Giacobbe Modiano-->
+                        <person xml:id="GM">  
+                                <persName>
+                                    <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-5478/modiano-giacobbe.html"/>
+                                    <foreName>Giacobbe</foreName>
+                                    <surname>Modiano</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1899-03-17" cert="high">17 marzo 1899</date>
+                                    <placeName>
+                                        <settlement type="municipality">Salonicco</settlement>
+                                        <country key="GR">Grecia</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="1944-09-16" cert="high">16 settembre 1944</date>
+                                        <placeName>
+                                            <settlement type="municipality">Auschwitz</settlement>
+                                            <country key="PL">Polonia</country>
+                                        </placeName>
+                                </death>
+                        </person>
+
+
+
+                        <!--Lucia Modiano-->
+                        <person xml:id="LM">  
+                                <persName>
+                                    <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-5484/modiano-lucia.html"/>
+                                    <foreName>Lucia</foreName>
+                                    <surname>Modiano</surname>
+                                </persName>
+
+                                <sex>F</sex>
+
+                                <birth>
+                                    <date when="1927-03-01" cert="high">1 marzo 1927</date>
+                                    <placeName>
+                                        <settlement type="island">Rodi</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date notBefore="1944-09-10" notAfter="1944-09-20" resp="#EM">...</date> 
+                                    <note resp="#EM">Data di morte compresa tra il 10 e il 20 settembre 1944, dedotta dalla testimonianza dello stesso Sami Modiano</note>
+                                    <placeName>
+                                        <settlement type="municipality">Auschwitz</settlement>
+                                        <country key="PL">Polonia</country>
+                                    </placeName>
+                                </death>
+                        </person>
+
+
+
+
+                        <!--Marcello Pezzetti-->
+                        <person xml:id="MP">    
+                                <persName>
+                                    <ref target="https://it.wikipedia.org/wiki/Marcello_Pezzetti"/>
+                                    <foreName>Marcello</foreName>
+                                    <surname>Pezzetti</surname>
+                                    <note resp="#EM" cert="high">Nella testimonianza Modiano si rivolge ad un certo Marcello che risulta essere Marcello Pezzetti, uno dei massimi studiosi italiani della Shoah che è solito accompagnare i gruppi durante le visite ad Auschwitz.</note>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1953-07-25" cert="high">25 luglio 1953</date>
+                                    <placeName>
+                                        <settlement type="municipality">Lodi</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </birth>
+
+                        </person>
+
+
+
+                        <!--Enrico Vanzini-->
+                        <person xml:id="VANZINI">  
+                                <persName>
+                                    <ref target="https://it.wikipedia.org/wiki/Enrico_Vanzini"/>
+                                    <foreName>Enrico</foreName>
+                                    <surname>Vanzini</surname>
+                                    <roleName type="honorific">Cavaliere Ordine al Merito della Repubblica Italiana</roleName>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1922-11-18" cert="high">18 novembre 1922</date>
+                                    <placeName ref="TEI-ListPlace#FO">
+                                        <settlement type="municipality">Fagnano Olona</settlement>
+                                        <settlement type="provincia" key="VA">Varese</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </birth> 
+                        </person>
+
+
+
+                        <person xml:id="INTERVISTATORE">    <!--Intervistatore. Non trovo informazioni-->
+                            <persName>
+                                <ref target=""/>
+                                <foreName></foreName>
+                                <surname></surname>
+                            </persName>
+
+                            <sex>M</sex>
+
+                            <birth>
+                                <date when="" cert=""></date>
+                                <placeName>
+                                    <settlement type=" "></settlement>
+                                    <country key=" "></country>
+                                </placeName>
+                            </birth>
+                        </person>
+
+
+
+                        <!--Emilio Lussu-->
+                        <person xml:id="EL">    
+                                <persName>
+                                    <ref target="https://it.wikipedia.org/wiki/Emilio_Lussu"/>
+                                    <foreName>Emilio</foreName>
+                                    <surname>Lussu</surname>
+                                    <roleName type="honorific">Cavaliere dell'Ordine di Vittorio Veneto</roleName>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1890-12-04 " cert="high">4 dicembre 1890</date>
+                                    <placeName>
+                                        <settlement type="municipality">Armungia</settlement>
+                                        <settlement type="provincia" key="CA">Cagliari</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="1975-03-05" cert="high">5 marzo 1975</date>
+                                        <placeName>
+                                            <settlement type="municipality" key="RO">Roma</settlement>
+                                            <country key="IT">Italia</country>
+                                        </placeName>
+                                </death>
+                        </person>
+
+
+
+                        <!--Roberto Brumat -->
+                        <person xml:id="RB">     
+                                <persName>
+                                    <foreName>Roberto</foreName>
+                                    <surname>Brumat</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    
+                                    <placeName>
+                                        <settlement type="municipality">Gorizia</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </birth>
+                        </person>
+
+
+
+                        <!--Giorgio Napolitano -->
+                        <person xml:id="GN">     
+                                <persName>
+                                    <ref target="https://it.wikipedia.org/wiki/Giorgio_Napolitano"/>
+                                    <foreName>Giorgio</foreName>
+                                    <surname>Napolitano</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1925-06-29" cert="high">29 giugno 1925</date>
+                                    <placeName>
+                                        <settlement type="municipality">Napoli</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </birth>
+                        </person>
+
+
+
+
+
+
+
+
+
+
+
+
+                        <!--Piero Terracina-->
+                        <person xml:id="TERRACINA">   
+                            
+                                <persName>
+                                    <ref target="https://it.wikipedia.org/wiki/Piero_Terracina http://digital-library.cdec.it/cdec-web/persone/detail/person-7922/terracina-piero.html"/>
+                                    <foreName>Piero</foreName>
+                                    <surname>Terracina</surname>
+                                    <roleName type="honorific">Cavaliere di gran croce dell'Ordine al merito della Repubblica italiana</roleName>
+                                    <roleName type="honorific">Croce al Merito di I Classe dell'Ordine al merito di Germania</roleName>
+                                    <roleName type="honorific">Laurea honoris causa in Scienze della Formazione primaria, Università degli Studi del Molise</roleName>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1928-11-12" cert="high">12 novembre 1928</date>
+                                    <placeName ref="TEI-ListPlace#RO">
+                                            <settlement type="municipality" key="RO">Roma</settlement>
+                                            <country key="IT">Italia</country>
+                                    </placeName>
+                                </birth>
+
+
+                                <death>
+                                    <date when="2019-12-08" cert="high">8 dicembre 2019</date>
+                                        <placeName ref="TEI-ListPlace#RO">
+                                            <settlement type="municipality" key="RO">Roma</settlement>
+                                            <country key="IT">Italia</country>
+                                        </placeName>
+                                </death>
+                        </person>
+
+
+        
+
+                        <!--Anna Segre-->
+                        <person xml:id="AS">   
+                            
+                                <persName>   
+                                    <foreName>Anna</foreName>
+                                    <surname>Segre</surname>
+                                </persName>
+
+                                <sex>F</sex>
+
+                                <birth>
+                                    <date when="1964" cert="high">1964</date>
+                                    <placeName ref="TEI-ListPlace#RO">
+                                            <settlement type="municipality" key="RO">Roma</settlement>
+                                            <country key="IT">Italia</country>
+                                    </placeName>
+                                </birth>
+                        </person>
+
+
+
+                        <!--Gloria Pavoncello-->
+                        <person xml:id="GP">   
+                            
+                                <persName>
+                                    <foreName>Gloria</foreName>
+                                    <surname>Pavoncello</surname>
+                                </persName>
+
+                                <sex>F</sex>
+
+                        </person>
+
+
+                        <!--Elie Wiesel-->
+                        <person xml:id="EW">    
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Elie_Wiesel"/>
+                                <foreName>Eliezer</foreName>
+                                <surname>Wiesel</surname>
+                                <addName type="alias">Elie</addName>
+                            </persName>
+
+                            <sex>M</sex>
+
+                            <birth>
+                                <date when="1928-09-30" cert="high">30 settembre 1928</date>
+                                <placeName>
+                                    <settlement type="municipality">Sighetu Marmatiei</settlement>
+                                    <country key="ROU">Romania</country>
+                                </placeName>
+                            </birth>
+
+                            <death>
+                                <date when="2016-07-02" cert="high">2 luglio 2016</date>
+                                    <placeName>
+                                        <settlement type="municipality">New York</settlement>
+                                        <country key="USA">Stati Uniti d'America</country>
+                                    </placeName>
+                            </death>
+                        </person>
+
+
+
+                        <!--Lucia Modiano: cugina di Sami Modiano-->
+                        <person xml:id="LuciaM">   
+                            <persName>
+                                <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-5675/modiano-lucia.html"/>
+                                <foreName>Lucia</foreName>
+                                <surname>Modiano</surname>
+                            </persName>
+
+                            <sex>F</sex>
+
+                            <birth>
+                                <date when="1923-03-04" cert="">4 marzo 1923</date>
+                                <placeName>
+                                    <settlement type="island">Rodi</settlement>
+                                    <country key="IT">Italia</country>
+                                </placeName>
+                            </birth>
+                        </person>
+
+
+
+                        <!--Roberto Olla-->
+                        <person xml:id="ROL">   
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Roberto_Olla"/>
+                                <foreName>Roberto</foreName>
+                                <surname>Olla</surname>
+                            </persName>
+
+                            <sex>M</sex>
+
+                            <birth>
+                                <date when="1951-06-18" cert="">18 giugno 1951</date>
+                                <placeName>
+                                    <settlement type="municipality">Alghero</settlement>
+                                    <country key="IT">Italia</country>
+                                </placeName>
+                            </birth>
+                        </person>
+
+
+
+                        <!--Ida Marcheria-->
+                        <person xml:id="IM">   
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Ida_Marcheria"/>
+                                <foreName>Ida</foreName>
+                                <surname>Marcheria</surname>
+                            </persName>
+
+                            <sex>F</sex>
+
+                            <birth>
+                                <date when="1929-08-13" cert="high">13 agosto 1929</date>
+                                <placeName>
+                                    <settlement type="municipality">Trieste</settlement>
+                                    <country key="IT">Italia</country>
+                                </placeName>
+                            </birth>
+
+                            <death>
+                                <date when="2011-10-03" cert="high">3 ottobre 2011</date>
+                                <placeName>
+                                    <settlement type="">Roma</settlement>
+                                    <country key="IT">Italia</country>
+                                </placeName>
+                            </death>
+                        </person>
+
+
+                        <!--Romeo Salmonì-->
+                        <person xml:id="RS">   
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Rubino_Romeo_Salmon%C3%AC"/>
+                                <foreName>Rubino</foreName>
+                                <foreName>Romeo</foreName>
+                                <surname>Salmonì</surname>
+                                <roleName type="honorific">Cavaliere di gran croce dell'Ordine al merito della Repubblica italiana</roleName>
+                            </persName>
+
+                            <sex>M</sex>
+
+                            <birth>
+                                <date when="1920-01-22" cert="high">22 gennaio 1920</date>
+                                <placeName>
+                                    <settlement type="municipality">Roma</settlement>
+                                    <country key="IT">Italia</country>
+                                </placeName>
+                            </birth>
+
+                            <death>
+                                <date when="2011-07-10" cert="high">10 luglio 2011</date>
+                                <placeName>
+                                    <settlement type="municipality">Roma</settlement>
+                                    <country key="IT">Italia</country>
+                                </placeName>
+                            </death>
+                        </person>
+
+
+                        <!--Johann Wolfgang von Goethe-->
+                        <person xml:id="VG">   
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe"/>
+                                <foreName>Johann</foreName>
+                                <foreName>Wolfgang</foreName>
+                                <surname>von Goethe</surname>
+                            </persName>
+
+                            <sex>M</sex>
+
+                            <birth>
+                                <date when="1949-08-28" cert="high">28 agosto 1749</date>
+                                <placeName>
+                                    <settlement type="municipality">Francoforte sul Meno</settlement>
+                                    <country key="DE">Germania</country>
+                                </placeName>
+                            </birth>
+
+                            <death>
+                                <date when="1832-03-22" cert="high">22 marzo 1832</date>
+                                <placeName>
+                                    <settlement type="municipality">Weimar</settlement>
+                                    <country key="DE">Germania</country>
+                                </placeName>
+                            </death>
+                        </person>
+
+
+                        <!--Friedrich Schiller-->
+                        <person xml:id="FS">   
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Friedrich_Schiller"/>
+                                <foreName>Friedrich</foreName>
+                                <surname>Schiller</surname>
+                            </persName>
+
+                            <sex>M</sex>
+
+                            <birth>
+                                <date when="1759-11-10" cert="high">10 novembre 1759</date>
+                                <placeName>
+                                    <settlement type="municipality">Marbach am Neckar</settlement>
+                                    <country key="DE">Germania</country>
+                                </placeName>
+                            </birth>
+
+                            <death>
+                                <date when="1805-05-09" cert="high">9 maggio 1805</date>
+                                <placeName>
+                                    <settlement type="municipality">Weimar</settlement>
+                                    <country key="DE">Germania</country>
+                                </placeName>
+                            </death>
+                        </person>
+
+
+                        <!--Johann Sebastian Bach-->
+                        <person xml:id="JSB">   
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Johann_Sebastian_Bach"/>
+                                <foreName>Johann</foreName>
+                                <foreName>Sebastian</foreName>
+                                <surname>Bach</surname>
+                            </persName>
+
+                            <sex>M</sex>
+
+                            <birth>
+                                <date when="1685-03-31" cert="high">31 marzo 1685</date>
+                                <placeName>
+                                    <settlement type="municipality">Eisenach</settlement>
+                                    <country key="DE">Germania</country>
+                                </placeName>
+                            </birth>
+
+                            <death>
+                                <date when="1750-07-28" cert="high">28 luglio 1750</date>
+                                <placeName>
+                                    <settlement type="municipality">Lipsia</settlement>
+                                    <country key="DE">Germania</country>
+                                </placeName>
+                            </death>
+                        </person>
+
+
+                        <!--Ludwig van Beethoven-->
+                        <person xml:id="LVB">   
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Ludwig_van_Beethoven"/>
+                                <foreName>Ludwig</foreName>
+                                <surname>van Beethoven</surname>
+                            </persName>
+
+                            <sex>M</sex>
+
+                            <birth>
+                                <date when="1685-03-31" cert="high">31 marzo 1685</date>
+                                <placeName>
+                                    <settlement type="municipality">Eisenach</settlement>
+                                    <country key="DE">Germania</country>
+                                </placeName>
+                            </birth>
+
+                            <death>
+                                <date when="1750-07-28" cert="high">28 luglio 1750</date>
+                                <placeName>
+                                    <settlement type="municipality">Lipsia</settlement>
+                                    <country key="DE">Germania</country>
+                                </placeName>
+                            </death>
+                        </person>
+
+
+                        <!--Adolf Hitler-->
+                        <person xml:id="AH">   
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Adolf_Hitler"/>
+                                <foreName>Adolf</foreName>
+                                <surname>Hitler</surname>
+                            </persName>
+
+                            <sex>M</sex>
+
+                            <birth>
+                                <date when="1889-04-20" cert="high">20 aprile 1889</date>
+                                <placeName>
+                                    <settlement type="municipality">Braunau am Inn</settlement>
+                                    <country key="DE">Germania</country>
+                                </placeName>
+                            </birth>
+
+                            <death>
+                                <date when="1945-04-30" cert="high">30 aprile 1945</date>
+                                <placeName>
+                                    <settlement type="municipality">Berlino</settlement>
+                                    <country key="DE">Germania</country>
+                                </placeName>
+                            </death>
+                        </person>
+
+
+                        <!--David Meghnagi-->
+                        <person xml:id="DM">   
+                            <persName>
+                                <ref target="http://www.davidmeghnagi.com/"/>
+                                <foreName>David</foreName>
+                                <surname>Meghnagi</surname>
+                            </persName>
+
+                            <sex>M</sex>
+
+                            <birth>
+                                <date when="1949" cert="high">1949</date>
+                                <placeName>
+                                    <settlement type="municipality">Tripoli</settlement>
+                                    <country key="LY">Libia</country>
+                                </placeName>
+                            </birth>
+                        </person>
+
+
+
+
+                        
+                        <!--Shlomo Venezia-->
+                        <person xml:id="SV">   
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Shlomo_Venezia"/>
+                                <foreName>Shlomo</foreName>
+                                <surname>Venezia</surname>
+                            </persName>
+
+                            <sex>M</sex>
+
+                            <birth>
+                                <date when="1923-12-29" cert="high">29 dicembre 1923</date>
+                                <placeName>
+                                    <settlement type="municipality">Salonicco</settlement>
+                                    <country key="GR">Grecia</country>
+                                </placeName>
+                            </birth>
+
+                            <death>
+                                <date when="2012-10-01" cert="high">1 ottobre 2012</date>
+                                <placeName>
+                                    <settlement type="municipality">Roma</settlement>
+                                    <country key="IT">Italia</country>
+                                </placeName>
+                            </death>
+                        </person>
+
+
+
+                        <!--Primo Levi-->
+                        <person xml:id="LEVI">   
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Primo_Levi"/>
+                                <foreName>Primo</foreName>
+                                <surname>Levi</surname>
+                            </persName>
+
+                            <sex>M</sex>
+
+                            <birth>
+                                <date when="1919-07-31" cert="high">31 luglio 1919</date>
+                                <placeName>
+                                    <settlement type="municipality">Torino</settlement>
+                                    <country key="IT">Italia</country>
+                                </placeName>
+                            </birth>
+
+                            <death>
+                                <date when="1987-04-11" cert="high">11 aprile 1987</date>
+                                <placeName>
+                                    <settlement type="municipality">Torino</settlement>
+                                    <country key="IT">Italia</country>
+                                </placeName>
+                            </death>
+                        </person>
+
+
+
+                        <!--Walter Veltroni-->
+                        <person xml:id="WV">   
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Walter_Veltroni"/>
+                                <foreName>Walter</foreName>
+                                <surname>Veltroni</surname>
+                                <roleName type="honorific">Cavaliere di gran croce dell'Ordine al merito della Repubblica italiana</roleName>
+                            </persName>
+
+                            <sex>M</sex>
+
+                            <birth>
+                                <date when="1955-07-03" cert="high">3 luglio 1955</date>
+                                <placeName>
+                                    <settlement type="municipality">Roma</settlement>
+                                    <country key="IT">Italia</country>
+                                </placeName>
+                            </birth>
+                        </person>
+
+
+
+
+                        <!--Anna Terracina-->
+                        <person xml:id="AT">   
+                            <persName>
+                                <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-7817/terracina-anna.html"/>
+                                <foreName>Anna</foreName>
+                                <surname>Terracina</surname>
+                            </persName>
+
+                            <sex>F</sex>
+
+                            <birth>
+                                <date when="1921-07-02" cert="high">2 luglio 1921</date>
+                                <placeName>
+                                    <settlement type="municipality">Roma</settlement>
+                                    <country key="IT">Italia</country>
+                                </placeName>
+                            </birth>
+
+                            <death>
+                                <date when="1944-12-31" cert="high">31 dicembre 1944</date>
+                                <placeName>
+                                    <settlement type="place"> Bergen Belsen</settlement>
+                                    <country key="DE">Germania</country>
+                                </placeName>
+                            </death>
+                        </person>
+
+
+
+                        <!--Giuseppe Di Porto-->
+                        <person xml:id="GDP">   
+                            <persName>
+                                <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-2370/di-porto-giuseppe-2.html"/>
+                                <foreName>Giuseppe</foreName>
+                                <surname>Di Porto</surname>
+                            </persName>
+
+                            <sex>M</sex>
+
+                            <birth>
+                                <date when="1923-06-03" cert="high">3 giugno 1923</date>
+                                <placeName>
+                                    <settlement type="municipality">Roma</settlement>
+                                    <country key="IT">Italia</country>
+                                </placeName>
+                            </birth>
+
+                            <death>
+                                <date when="2017-09-02" cert="high">2 settembre 2017</date>
+                                <placeName>
+                                    <settlement type="municipality">Roma</settlement>
+                                    <country key="IT">Italia</country>
+                                </placeName>
+                            </death>
+                        </person>
+
+
+
+                        <!--Pietro Badoglio-->
+                        <person xml:id="PB">   
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Pietro_Badoglio"/>
+                                <foreName>Pietro</foreName>
+                                <surname>Badoglio</surname>
+                                <roleName type="honorific">Cavaliere di Gran Croce dell'Ordine dei Santi Maurizio e Lazzaro</roleName>
+                                <roleName type="honorific">Cavaliere dell'Ordine Supremo della Santissima Annunziata</roleName>
+                                <roleName type="honorific">Cavaliere di Gran Croce dell'Ordine della Corona d'Italia</roleName>
+                                <roleName type="honorific">Cavaliere di gran croce dell'Ordine militare di Savoia</roleName>
+                                <roleName type="honorific">Gran Croce dell'Ordine coloniale della stella d'Italia</roleName>
+                                <roleName type="honorific">Cavaliere di Gran Croce Magistrale del Sovrano Militare Ordine di Malta</roleName>
+                                <roleName type="honorific">Commendatore dell'Ordine equestre del Santo Sepolcro di Gerusalemme</roleName>
+                            </persName>
+
+                            <sex>M</sex>
+
+                            <birth>
+                                <date when="1871-09-28" cert="high">28 settembre 1871</date>
+                                <placeName>
+                                    <settlement type="municipality">Grazzano Monferrato</settlement>
+                                    <settlement type="municipality">Asti</settlement>
+                                    <country key="IT">Italia</country>
+                                </placeName>
+                            </birth>
+
+                            <death>
+                                <date when="1956-11-01" cert="high">1 novembre 1956</date>
+                                <placeName>
+                                    <settlement type="municipality">Grazzano Monferrato</settlement>
+                                    <settlement type="municipality">Asti</settlement>
+                                    <country key="IT">Italia</country>
+                                </placeName>
+                            </death>
+                        </person>
+
+
+
+                        <!--Pietro Quaroni-->
+                        <person xml:id="PQ">   
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Pietro_Quaroni"/>
+                                <foreName>Pietro</foreName>
+                                <surname>Quaroni</surname>
+                                <roleName type="honorific">Cavaliere di gran croce dell'Ordine al merito della Repubblica italiana</roleName>
+                            </persName>
+
+                            <sex>M</sex>
+
+                            <birth>
+                                <date when="1898-10-03" cert="high">3 ottobre 1898</date>
+                                <placeName>
+                                    <settlement type="municipality">Roma</settlement>
+                                    <country key="IT">Italia</country>
+                                </placeName>
+                            </birth>
+
+                            <death>
+                                <date when="1971-06-11" cert="high">11 giugno 1971</date>
+                                <placeName>
+                                    <settlement type="municipality">Roma</settlement>
+                                    <country key="IT">Italia</country>
+                                </placeName>
+                            </death>
+                        </person>
+
+
+
+                        <!--Tito Falconi-->
+                        <person xml:id="TF">   
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Tito_Falconi"/>
+                                <foreName>Tito</foreName>
+                                <surname>Falconi</surname>
+                            </persName>
+
+                            <sex>M</sex>
+
+                            <birth>
+                                <date when="1907-07-15" cert="high">15 luglio 1907</date>
+                                <placeName>
+                                    <settlement type="municipality">Beausoleil</settlement>
+                                    <country key="FR">Francia</country>
+                                </placeName>
+                            </birth>
+                        </person>
+
+
+                        <!--Carlo II di Romania-->
+                        <person xml:id="CHS">   
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Carlo_II_di_Romania"/>
+                                <foreName>Carlo</foreName>
+                                <surname>Hohenzollern-Sigmaringen</surname>
+                            </persName>
+
+                            <sex>M</sex>
+
+                            <birth>
+                                <date when="1893-10-15" cert="high">15 ottobre 1893</date>
+                                <placeName>
+                                    <settlement type="municipality">Sinaia</settlement>
+                                    <country key="ROU">Romania</country>
+                                </placeName>
+                            </birth>
+
+                            <death>
+                                <date when="1953-04-04" cert="high">4 aprile 1953</date>
+                                <placeName>
+                                    <settlement type="municipality">Estoril</settlement>
+                                    <country key="P">Portogallo</country>
+                                </placeName>
+                            </death>
+                        </person>
+
+
+
+                        <!--Michele I di Romania-->
+                        <person xml:id="MHS">   
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Michele_I_di_Romania"/>
+                                <foreName>Michele</foreName>
+                                <surname>Hohenzollern-Sigmaringen</surname>
+                            </persName>
+
+                            <sex>M</sex>
+
+                            <birth>
+                                <date when="1921-10-25" cert="high">25 ottobre 1921</date>
+                                <placeName>
+                                    <settlement type="municipality">Sinaia</settlement>
+                                    <country key="ROU">Romania</country>
+                                </placeName>
+                            </birth>
+
+                            <death>
+                                <date when="2017-12-05" cert="high">5 dicembre 2017</date>
+                                <placeName>
+                                    <settlement type="municipality">Aubonne</settlement>
+                                    <country key="CH">Svizzera</country>
+                                </placeName>
+                            </death>
+                        </person>
+
+
+                        <!--Lello Perugia-->
+                        <person xml:id="LP">   
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Lello_Perugia"/>
+                                <foreName>Lello</foreName>
+                                <surname>Perugia</surname>
+                            </persName>
+
+                            <sex>M</sex>
+
+                            <birth>
+                                <date when="1919-10-31" cert="high">31 ottobre 1919</date>
+                                <placeName>
+                                    <settlement type="municipality">Roma</settlement>
+                                    <country key="IT">Italia</country>
+                                </placeName>
+                            </birth>
+
+                            <death>
+                                <date when="2010-10-24" cert="high">24 novembre 2010</date>
+                                <placeName>
+                                    <settlement type="municipality">Roma</settlement>
+                                    <country key="IT">Italia</country>
+                                </placeName>
+                            </death>
+                        </person>
+
+
+                        <!--Amedeo Terracina-->
+                        <person xml:id="AMT">   
+                            <persName>
+                                <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-7816/terracina-amedeo.html"/>
+                                <foreName>Amedeo</foreName>
+                                <surname>Terracina</surname>
+                            </persName>
+
+                            <sex>M</sex>
+
+                            <birth>
+                                <date when="1895-09-03" cert="high">3 settembre 1895</date>
+                                <placeName>
+                                    <settlement type="municipality">Roma</settlement>
+                                    <country key="IT">Italia</country>
+                                </placeName>
+                            </birth>
+
+                            <death>
+                                <date when="1944-10-26" cert="high">26 ottobre 1944</date>
+                                <placeName>
+                                    <settlement type="municipality">Auschwitz</settlement>
+                                    <country key="PL">Polonia</country>
+                                </placeName>
+                            </death>
+                        </person>
+
+
+                        <!--Giovanni Terracina-->
+                        <person xml:id="GT">   
+                            <persName>
+                                <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-7827/terracina-giovanni.html"/>
+                                <foreName>Giovanni</foreName>
+                                <surname>Terracina</surname>
+                            </persName>
+
+                            <sex>M</sex>
+
+                            <birth>
+                                <date when="1888-08-08" cert="high">8 agosto 1888</date>
+                                <placeName>
+                                    <settlement type="municipality">Roma</settlement>
+                                    <country key="IT">Italia</country>
+                                </placeName>
+                            </birth>
+
+                            <death>
+                                <date when="1944-05-23" cert="high">23 maggio 1944</date>
+                                <placeName>
+                                    <settlement type="municipality">Auschwitz</settlement>
+                                    <country key="PL">Polonia</country>
+                                </placeName>
+                            </death>
+                        </person>
+
+                        <!--Lidia Ascoli-->
+                        <person xml:id="LA">   
+                            <persName>
+                                <ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-573/ascoli-lidia.html"/>
+                                <foreName>Lidia</foreName>
+                                <surname>Ascoli</surname>
+                            </persName>
+
+                            <sex>F</sex>
+
+                            <birth>
+                                <date when="1887-08-19" cert="high">19 agosto 1887</date>
+                                <placeName>
+                                    <settlement type="municipality">Roma</settlement>
+                                    <country key="IT">Italia</country>
+                                </placeName>
+                            </birth>
+
+                            <death>
+                                <date when="1944-04-07" cert="high">7 aprile 1944</date>
+                                <placeName>
+                                    <settlement type="municipality" resp="#EM">Auschwitz</settlement>
+                                    <country key="PL">Polonia</country>
+                                </placeName>
+                            </death>
+                        </person>
+
+
+                        <!--Giulio Busi-->
+                        <person xml:id="GB">   
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Giulio_Busi"/>
+                                <foreName>Giulio</foreName>
+                                <surname>Busi</surname>
+                            </persName>
+
+                            <sex>M</sex>
+
+                            <birth>
+                                <date when="1960-09-06" cert="high">6 settembre 1960</date>
+                                <placeName>
+                                    <settlement type="municipality">Bologna</settlement>
+                                    <country key="IT">Italia</country>
+                                </placeName>
+                            </birth>
+                        </person>
+
+
+                        <!--Gabriele D'Annunzio-->
+                        <person xml:id="GDA">   
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Gabriele_D%27Annunzio"/>
+                                <foreName>Gabriele</foreName>
+                                <surname>D'Annunzio</surname>
+                            </persName>
+
+                            <sex>M</sex>
+
+                            <birth>
+                                <date when="1863-03-12" cert="high">12 marzo 1863</date>
+                                <placeName>
+                                    <settlement type="municipality">Pescara</settlement>
+                                    <country key="IT">Italia</country>
+                                </placeName>
+                            </birth>
+
+                            <death>
+                                <date when="1938-03-01" cert="high">1 marzo 1938</date>
+                                <placeName>
+                                    <settlement type="municipality" resp="#EM">Gardone Riviera</settlement>
+                                    <country key="IT">Italia</country>
+                                </placeName>
+                            </death>
+
+                        </person>
+
+
+                
+
+                </listPerson>
+            
+            </sourceDesc>
+
+        </fileDesc>
+
+    </teiHeader>
+</TEI>
