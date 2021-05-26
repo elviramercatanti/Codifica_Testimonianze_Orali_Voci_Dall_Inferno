@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+
+
+    <teiHeader>
+        <fileDesc>
+
+            <titleStmt>
+                <title>
+                    <!-- Insert title for this digital text -->
+                </title>
+            </titleStmt>
+
+            <publicationStmt>
+                <p>
+                    <!-- Insert information about the publication of this digital text -->
+                </p>
+            </publicationStmt>
+
+            <sourceDesc>
+                <p>
+                    <!-- Insert a bibliographic description of the source for this digital text -->
+                </p>
+
+                <listPlace>
+
+                    <head>Lista dei luoghi</head>
+
+
+                    <place xml:id="Rodi">
+                        <placeName ref="https://www.geonames.org/400666 https://www.treccani.it/enciclopedia/rodi/">Rodi</placeName>
+                        <country key="IT">Italia</country>
+                    </place>
+
+                    <place xml:id="Au">
+                        <placeName ref="https://www.geonames.org/7701596 https://www.treccani.it/enciclopedia/auschwitz/">Auschwitz</placeName>
+                        <country key="PL">Polonia</country>
+                    </place>
+
+                    <place xml:id="FO"> <!--geonames: link di Varese. Fagnano-Olona non è presente-->
+                        <placeName ref="https://www.geonames.org/6542112 https://www.treccani.it/enciclopedia/fagnano-olona/">Fagnano Olona</placeName>
+                        <settlement type="city">Varese</settlement>
+                        <country key="IT">Italia</country>
+                    </place>
+
+                    <place xml:id="VA">
+                        <placeName ref="https://www.geonames.org/6542112 https://www.treccani.it/enciclopedia/varese/">Varese</placeName>
+                        <country key="IT">Italia</country>
+                    </place>
+
+                    <place xml:id="RO">
+                        <placeName ref="https://www.geonames.org/3169070 https://www.treccani.it/enciclopedia/roma">Roma</placeName>
+                        <country key="IT">Italia</country>
+                    </place>
+
+                    <place xml:id="MO">
+                        <placeName ref="http://www.geonames.org/2867714 https://www.treccani.it/enciclopedia/monaco-di-baviera">Monaco</placeName>
+                        <country key="DE">Germania</country>
+                    </place>
+
+
+                    <place xml:id="DA">
+                        <placeName ref="http://www.geonames.org/2939623 https://www.treccani.it/enciclopedia/dachau">Dachau</placeName>
+                        <country key="DE">Germania</country>
+                    </place>
+
+
+                    <place xml:id="TSB"><!--geonames: link di Vicenza -->
+                        <placeName ref="http://www.geonames.org/3164419 https://www.treccani.it/enciclopedia/tezze-sul-brenta">Tezze sul Brenta</placeName>
+                        <settlement type="city">Varese</settlement>
+                        <country key="IT">Italia</country>
+                    </place>
+
+                    <place xml:id="CI">
+                        <placeName ref="http://www.geonames.org/3178622 https://www.treccani.it/enciclopedia/cittadella_res-d0d38788-962a-11de-baff-0016357eee51">Cittadella</placeName>
+                        <country key="IT">Italia</country>
+                    </place>
+
+                    <place xml:id="I">
+                        <placeName ref="http://www.geonames.org/2895992 https://www.treccani.it/enciclopedia/ingolstadt">Ingolstadt</placeName>
+                        <country key="DE">Germania</country>
+                    </place>
+
+                    <place xml:id="L">
+                        <placeName ref="https://www.geonames.org/2772400 https://www.treccani.it/enciclopedia/linz/">Linz</placeName>
+                        <country key="AT">Austria</country>
+                    </place>
+
+
+                    <place xml:id="DE">
+                        <placeName ref="https://www.geonames.org/2921044 https://www.treccani.it/enciclopedia/germania/">Germania</placeName>
+                        <country key="DE">Germania</country>
+                    </place>
+
+                
+                    <place xml:id="AT">
+                        <placeName ref="http://www.geonames.org/2782113 https://www.treccani.it/enciclopedia/austria/">Austria</placeName>
+                        <country key="AT">Austria</country>
+                    </place>
+
+
+                    <place xml:id="GR">
+                        <placeName ref="https://www.geonames.org/390903 https://www.treccani.it/enciclopedia/grecia/">Grecia</placeName>
+                        <country key="GR">Grecia</country>
+                    </place>
+
+
+                    <place xml:id="BU">
+                        <placeName ref="https://www.geonames.org/8644023 https://www.treccani.it/enciclopedia/buchenwald">Buchenwald</placeName>
+                        <country key="DE">Germania</country>
+                    </place>
+
+
+                    <place xml:id="CH">
+                        <placeName ref="https://www.geonames.org/2658434 https://www.treccani.it/enciclopedia/svizzera/">Svizzera</placeName>
+                        <country key="CH">Svizzera</country>
+                    </place>
+
+
+                    <place xml:id="LC">
+                        <placeName ref="http://www.geonames.org/2659347 https://www.treccani.it/enciclopedia/lago-di-costanza">Lago di Costanza</placeName>
+                        <country key="CH">Svizzera</country>
+                    </place>
+
+
+                    <place xml:id="IN">
+                        <placeName ref="http://www.geonames.org/2775220 https://www.treccani.it/enciclopedia/innsbruck">Innsbruck</placeName>
+                        <country key="AT">Austria</country>
+                    </place>
+
+
+
+
+                    <place xml:id="BRU">
+                        <placeName ref="http://www.geonames.org/2800867 https://www.treccani.it/enciclopedia/bruxelles/">Bruxelles</placeName>
+                        <country key="BE">Belgio</country>
+                    </place>
+
+
+                    <place xml:id="CO">
+                        <placeName ref="https://www.geonames.org/2260494 https://www.treccani.it/enciclopedia/repubblica-democratica-del-congo/">Congo</placeName>
+                        <country key="CO">Congo</country>
+                    </place>
+
+
+                    <place xml:id="O">
+                        <placeName ref="https://www.geonames.org/8378691 https://www.treccani.it/enciclopedia/ostia/">Ostia</placeName>
+                        <country key="IT">Italia</country>
+                    </place>
+
+                    <place xml:id="EU">
+                        <placeName ref="https://www.geonames.org/6255148 https://www.treccani.it/enciclopedia/europa/">Europa</placeName>
+                    </place>
+
+                    <place xml:id="PL">
+                        <placeName ref="http://www.geonames.org/798544 https://www.treccani.it/enciclopedia/polonia/">Polonia</placeName>
+                        <country key="PL">Polonia</country>
+                    </place>
+
+                    <place xml:id="WA">
+                        <placeName ref="https://www.geonames.org/756135 https://www.treccani.it/enciclopedia/varsavia/">Varsavia</placeName>
+                        <country key="PL">Polonia</country>
+                    </place>
+
+                     <place xml:id="BRA">
+                        <placeName ref="https://www.geonames.org/3060972 https://www.treccani.it/enciclopedia/bratislava">Bratislava</placeName>
+                        <country key="SLO">Slovacchia</country>
+                    </place>
+
+                    <place xml:id="BI">
+                        <placeName ref="https://www.geonames.org/7701596 https://www.treccani.it/enciclopedia/birkenau/">Birkenau</placeName>
+                        <country key="PL">Polonia</country>
+                    </place>
+
+
+
+
+
+
+                    <place xml:id="NO">
+                        <placeName ref="http://www.geonames.org/2861788 https://en.wikipedia.org/wiki/Nossen">Nossen</placeName>
+                        <country key="DE">Germania</country>
+                    </place>
+
+                    <place xml:id="DD">
+                        <placeName ref="https://www.geonames.org/2935022 https://www.treccani.it/enciclopedia/dresda">Dresda</placeName>
+                        <country key="DE">Germania</country>
+                    </place>
+
+                    <place xml:id="KTW">
+                        <placeName ref="https://www.geonames.org/3096472 https://www.treccani.it/enciclopedia/katowice">Katowice</placeName>
+                        <country key="PL">Polonia</country>
+                    </place>
+
+                    <place xml:id="LEO">
+                        <placeName ref="http://www.geonames.org/702550 https://www.treccani.it/enciclopedia/leopoli">Leopoli</placeName>
+                        <country key="U">Ucraina</country>
+                    </place>
+
+                    <place xml:id="CAU">
+                        <placeName ref="http://www.geonames.org/615318 https://www.treccani.it/enciclopedia/caucaso">Caucaso</placeName>
+                        <country key="CAU">Caucaso</country>
+                    </place>
+
+                    <place xml:id="SO">
+                        <placeName ref="https://www.geonames.org/491422 https://www.treccani.it/enciclopedia/soci/">Soci</placeName>
+                        <country key="RU">Russia</country>
+                    </place>
+
+                    <place xml:id="SA">
+                        <placeName ref="https://www.geonames.org/3167022 https://www.treccani.it/enciclopedia/savona/">Savona</placeName>
+                        <country key="IT">Italia</country>
+                    </place>
+
+                    <place xml:id="OT">
+                        <placeName ref="http://www.geonames.org/11836740 https://www.treccani.it/enciclopedia/otranto/">Otranto</placeName>
+                        <country key="IT">Italia</country>
+                    </place>
+
+                    <place xml:id="COMO">
+                        <placeName ref="http://www.geonames.org/3178229 https://www.treccani.it/enciclopedia/como/">Como</placeName>
+                        <country key="IT">Italia</country>
+                    </place>
+
+                    <place xml:id="IM">
+                        <placeName ref="https://www.geonames.org/3175537 https://www.treccani.it/enciclopedia/imola/">Imola</placeName>
+                        <country key="IT">Italia</country>
+                    </place>
+
+                    <place xml:id="VT">
+                        <placeName ref="https://www.geonames.org/3164039 https://www.treccani.it/enciclopedia/viterbo">Viterbo</placeName>
+                        <country key="IT">Italia</country>
+                    </place>
+
+                    <place xml:id="MOS">
+                        <placeName ref="https://www.geonames.org/524901 https://www.treccani.it/enciclopedia/mosca/">Mosca</placeName>
+                        <country key="RU">Russia</country>
+                    </place>
+
+                    <place xml:id="URSS">
+                        <placeName ref="https://www.geonames.org/8354411 https://www.treccani.it/enciclopedia/urss/">Unione Sovietica</placeName>
+                        <country key="URSS">Unione Sovietica</country>
+                    </place>
+
+                    <place xml:id="OD">
+                        <placeName ref="https://www.geonames.org/698740 https://www.treccani.it/enciclopedia/odessa">Odessa</placeName>
+                        <country key="U">Ucraina</country>
+                    </place>
+
+                    <place xml:id="LU"><!--entrambi i link sono della Svizzera-->
+                        <placeName ref="https://www.geonames.org/2658434 https://www.treccani.it/enciclopedia/svizzera/">Lutsdorf</placeName>
+                        <country key="CH">Svizzera</country>
+                    </place>
+
+                    <place xml:id="SD"><!--geonames: link della Bielorussia-->
+                        <placeName ref="https://www.geonames.org/630336 https://it.wikipedia.org/wiki/Staryja_Darohi">Starya Darohi</placeName>
+                        <country key="BY">Bielorussia</country>
+                    </place>
+
+                    <place xml:id="MIN">
+                        <placeName ref="https://www.geonames.org/625144 https://www.treccani.it/enciclopedia/minsk/">Minsk</placeName>
+                        <country key="BY">Bielorussia</country>
+                    </place>
+
+                    <place xml:id="RU">
+                        <placeName ref="https://www.geonames.org/2017370 https://www.treccani.it/enciclopedia/russia/">Russia</placeName>
+                        <country key="RU">Russia</country>
+                    </place>
+
+                    <place xml:id="ROU">
+                        <placeName ref="https://www.geonames.org/798549 https://www.treccani.it/enciclopedia/romania/">Romania</placeName>
+                        <country key="ROU">Romania</country>
+                    </place>
+
+                    <place xml:id="MD">
+                        <placeName ref="https://www.geonames.org/617790 https://www.treccani.it/enciclopedia/moldavia">Moldavia</placeName>
+                        <country key="MD">Moldavia</country>
+                    </place>
+
+                    <place xml:id="PR"><!--geonames: link del Danubio, di cui il fiume Prut è un affluente-->
+                        <placeName ref="https://www.geonames.org/791630 https://www.treccani.it/enciclopedia/prut">Prut</placeName>
+                        <!--Fiume che scorre in 3 paesi-->
+                        <country key="ROU">Romania</country>
+                        <country key="MD">Moldavia</country>
+                        <country key="U">Ucraina</country>
+
+                    </place>
+
+
+                    <place xml:id="PA">
+                        <placeName ref="https://www.geonames.org/2523920 https://www.treccani.it/enciclopedia/palermo">Palermo</placeName>
+                        <country key="IT">Italia</country>
+                    </place>
+
+                    <place xml:id="BY">
+                        <placeName ref="https://www.geonames.org/630336 https://www.treccani.it/enciclopedia/bielorussia/">Bielorussia</placeName>
+                        <country key="BY">Bielorussia</country>
+                    </place>
+
+                    <place xml:id="GL">
+                        <placeName ref="https://www.geonames.org/3099230 https://www.treccani.it/enciclopedia/gleiwitz">Gliwice</placeName>
+                        <country key="PL">Polonia</country>
+                    </place>
+
+                    <place xml:id="MN">
+                        <placeName ref="http://www.geonames.org/630673 https://www.treccani.it/enciclopedia/mar-nero/">Mar Nero</placeName>
+                        <country key=""></country>
+                    </place>
+
+
+                    <place xml:id="C">
+                        <placeName ref="https://www.geonames.org/680963 https://www.treccani.it/enciclopedia/costanza">Costanza</placeName>
+                        <country key="ROU">Romania</country>
+                    </place>
+
+                    <place xml:id="CHI">
+                        <placeName ref="https://www.geonames.org/618426 https://www.treccani.it/enciclopedia/chisinau">Chisinau</placeName>
+                        <country key="MD">Moldavia</country>
+                    </place>
+
+                    <place xml:id="IA">
+                        <placeName ref="https://www.geonames.org/675810 https://www.treccani.it/enciclopedia/iasi/">Iasi</placeName>
+                        <country key="ROU">Romania</country>
+                    </place>
+
+                    <place xml:id="BUH">
+                        <placeName ref="https://www.geonames.org/683506 https://www.treccani.it/enciclopedia/bucarest/">Bucarest</placeName>
+                        <country key="ROU">Romania</country>
+                    </place>
+
+                    <place xml:id="NY">
+                        <placeName ref="https://www.geonames.org/5128581 https://www.treccani.it/enciclopedia/new-york/">New York</placeName>
+                        <country key="USA">Stati Uniti d'America</country>
+                    </place>
+
+                    <place xml:id="MI">
+                        <placeName ref="https://www.geonames.org/3173435 https://www.treccani.it/enciclopedia/milano/">Milano</placeName>
+                        <country key="IT">Italia</country>
+                    </place>
+
+                    <place xml:id="IT">
+                        <placeName ref="https://www.geonames.org/3175395 https://www.treccani.it/enciclopedia/italia/">Italia</placeName>
+                        <country key="IT">Italia</country>
+                    </place>
+
+                    
+                    <place xml:id="HU">
+                        <placeName ref="https://www.geonames.org/719819 https://www.treccani.it/enciclopedia/ungheria/">Ungheria</placeName>
+                        <country key="HU">Ungheria</country>
+                    </place>
+
+                    <place xml:id="BA">
+                        <placeName ref="https://www.geonames.org/3182351 https://www.treccani.it/enciclopedia/bari/">Bari</placeName>
+                        <country key="IT">Italia</country>
+                    </place>
+
+                    
+
+                
+
+
+                </listPlace>
+            
+            </sourceDesc>
+
+        </fileDesc>
+
+    </teiHeader>
+</TEI>
+
+
+
+
